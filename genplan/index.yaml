@@ -1,0 +1,68 @@
+title: 'Топоматик Robur - Генеральные планы'
+blocks:
+  - type: 'card-layout-block'
+    title: 'Топоматик Robur - Генеральные планы'
+    description: >-
+      <p>
+      В данном томе рассматривается функционал по созданию и редактированию элементов генерального плана. Описываются блоки дополнительных задач, применимых при работе с моделью Площадка (Расстановка элементов озеленения, малых архитектурных форм, работа с библиотеками данных, формирование выходной документации и т.д.). Вопросы, связанные с подготовкой исходных данных, такие как: <a href="ru/rb_survey/survey/basic_concepts.html">обработка геодезических</a> и <a href="ru/rb_survey/glg/creation_legend_ground.html">геологических данных</a>, <a href="ru/rb_survey/dtm/general_information.html">работа с ЦММ </a> подробно рассматривались в предыдущих разделах.
+      <p>
+      Общие принципы работы в модуле "Генеральные планы" приведены в учебном видеокурсе в <a href="https://www.youtube.com/playlist?list=PL8nBWfOCF6qJinJgqjH69FUnnADsmkfEQ">YouTube</a>|<a href="https://rutube.ru/plst/862519">RuTube</a>|<a href="https://vkvideo.ru/playlist/-31725289_16">VK</a>
+    children:
+      - type: 'basic-card'
+        title: Исходные данные
+        background:
+        links:
+          - url: '../commons_tasks/cadaster/download_data.md'
+            text: 'Загрузка кадастровых данных'
+            theme: 'normal'
+            arrow: true
+          - url: '../commons_tasks/coordinate_systems/coordinate_systems.md'
+            text: 'Работа с системами координат'
+            theme: 'normal'
+            arrow: true
+          - url: '../commons_tasks/maps/load_internet_cards.md'
+            text: 'Загрузка интернет карт'
+            theme: 'normal'
+            arrow: true
+          - url: '../rb_survey/survey/basic_concepts.md'
+            text: 'И другие'
+            theme: 'normal'
+            arrow: true
+      - type: 'basic-card'
+        title: Работа с моделью площадка
+        links:
+          - url: 'creating_ground_model.md'
+            text: 'Создание и Настройки модели Площадка'
+            theme: 'normal'
+            arrow: true
+          - url: 'horizontal_layout_new/introduction.md'
+            text: 'Горизонтальная планировка'
+            theme: 'normal'
+            arrow: true
+          - url: 'vertical_layout_new/introduction.md'
+            text: 'Вертикальная планировка'
+            theme: 'normal'
+            arrow: true
+          - url: 'annotations/introduction.md'
+            text: 'Аннотации'
+            theme: 'normal'
+            arrow: true
+          - url: 'improvement/introduction.md'
+            text: 'Благоустройство'
+            theme: 'normal'
+            arrow: true
+          - url: 'utilities/creating_surface_from_primitives.md'
+            text: 'Утилиты'
+            theme: 'normal'
+            arrow: true
+      - type: 'basic-card'
+        title: Выходная документация
+        links:
+          - url: 'creating_output_statements_genplan.md'
+            text: 'Создание ведомостей'
+            theme: 'normal'
+            arrow: true
+          - url: 'creation_output_drawings_genplan.md'
+            text: 'Создание чертежей'
+            theme: 'normal'
+            arrow: true

@@ -1,0 +1,94 @@
+fullScreen: true
+blocks:
+  - type: 'header-block'
+    verticalOffset: 's'
+    width: 'm'
+    offset: 'default'
+    title: 'Справка — {{robur}}'
+    description: "{{robur}} — это российский импортонезависимый программный продукт для проектирования, информационного моделирования, строительства и эксплуатации объектов транспортной инфраструктуры."
+    buttons:
+      - text: "Скачать учебную версию Топоматик Robur"
+        theme: 'outlined'
+        url: 'https://topomatic.ru/products/edu/download/'
+  - type: 'card-layout-block'
+    animated: true
+    resetPaddings: true
+    children:
+      - type: 'basic-card'
+        title: Установка. Запуск и настройка
+        url: install_startup/index.yaml
+        additionalInfo: Установка и стартовая настройка программного комплекса «{{robur}}».
+        gravityIcon:
+          name: 'ArrowDownToLine'
+          color: 'text-color'
+      - type: 'basic-card'
+        title: Топоматик Robur - Изыскания
+        icon:
+          dark: https://download.topomatic.ru/public/media/docviewer/survey_logo_dark.svg
+          light: https://download.topomatic.ru/public/media/docviewer/survey_logo.svg
+        url: rb_survey/index.yaml
+        additionalInfo: Обработка материалов полевых изысканий и создания цифровой модели местности, работа с топографическими планами, трассами, профилями, геодезическими и геологическими данными
+      - type: 'basic-card'
+        title: Топоматик Robur - Автомобильные дороги
+        icon:
+          dark: https://download.topomatic.ru/public/media/docviewer/road_logo_dark.svg
+          light: https://download.topomatic.ru/public/media/docviewer/road_logo.svg
+        url: road/index.yaml
+        additionalInfo: Создание и редактирование продольного и поперечного профилей автомобильной дороги. Сопутствующие проектные задачи
+      - type: 'basic-card'
+        title: Топоматик Robur - Железные дороги
+        icon:
+          dark: https://download.topomatic.ru/public/media/docviewer/rail_logo_dark.svg
+          light: https://download.topomatic.ru/public/media/docviewer/rail_logo.svg
+        url: rail/index.yaml
+        additionalInfo: Создание и редактирование продольного и поперечного профилей железной дороги. Сопутствующие проектные задачи
+      - type: 'basic-card'
+        title: Топоматик Robur - Инженерные сети
+        icon:
+          dark: https://download.topomatic.ru/public/media/docviewer/pipes_logo_dark.svg
+          light: https://download.topomatic.ru/public/media/docviewer/pipes_logo.svg
+        url: pipes/index.yaml
+        additionalInfo: Создание и редактирование наружных инженерных сетей
+      - type: 'basic-card'
+        title: Топоматик Robur - Искусственные сооружения
+        icon:
+          dark: https://download.topomatic.ru/public/media/docviewer/culverts_logo_dark.svg
+          light: https://download.topomatic.ru/public/media/docviewer/culverts_logo.svg
+        url: culverts/index.yaml
+        additionalInfo: Создание и редактирование водопропускных труб
+      - type: 'basic-card'
+        title: Топоматик Robur - Генеральные планы
+        icon:
+          dark: https://download.topomatic.ru/public/media/docviewer/genplan_logo_dark.svg
+          light: https://download.topomatic.ru/public/media/docviewer/genplan_logo.svg
+        url: genplan/index.yaml
+        additionalInfo: В данном разделе рассматривается функционал по созданию и редактированию элементов генерального плана
+      - type: 'basic-card'
+        title: Топоматик Robur - Дорожная одежда (скоро)
+        icon:
+          dark: https://download.topomatic.ru/public/media/docviewer/roadbed_logo_dark.svg
+          light: https://download.topomatic.ru/public/media/docviewer/roadbed_logo.svg
+        #url: roadbed/index.yaml
+        additionalInfo: В данном разделе рассматривается функционал по расчету дорожной одежды
+      - type: 'basic-card'
+        title: Общие задачи
+        url: commons_tasks/index.yaml
+        additionalInfo: Блок дополнительных задач для работы с изыскательскими и проектными данными в разных модулях программы
+        gravityIcon:
+          name: 'CheckShape'
+          color: 'text-color'
+      - type: 'basic-card'
+        title: Чертежи и ведомости
+        url: doc/index.yaml
+        additionalInfo: Основные способы создания чертежей и ведомостей
+        gravityIcon:
+          name: 'File'
+          color: 'text-color'
+      - type: 'basic-card'
+        title: Приложение
+        url: annex/index.yaml
+        additionalInfo: Описание способов подсчета объемов работ, перечень стандартных кодов и переменных конструкций поперечного профиля автомобильной дороги, библиотека семантических объектов, библиотека данных и архивные разделы
+      #- type: 'basic-card'
+      #  title: Дорожная одежда_new
+      #  url: road_bed_new/index.yaml
+      #  additionalInfo:

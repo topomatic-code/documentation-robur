@@ -1,0 +1,56 @@
+title: 'Топоматик Robur - Инженерные сети'
+blocks:
+  - type: 'card-layout-block'
+    title: 'Топоматик Robur - Инженерные сети'
+    description:
+     <p>
+     В данном томе рассматривается функционал по созданию и редактированию наружных инженерных сетей. Описываются блоки дополнительных задач, применимых при проектировании инженерных сетей (работа с библиотеками данных, формирование выходной документации и т.д.).
+     <p>
+     Общие бщие принципы работы в модуле "Инженерные сети" также приведены в <a href="https://rutube.ru/plst/522418?r=wd">"Кратком учебном видеокурсе"</a>.
+     <p>
+     Вопросы, связанные с подготовкой исходных данных, такие как <a href="ru/rb_survey/survey/basic_concepts.html">обработка геодезических данных</a> и <a href="ru/rb_survey/glg/creation_legend_ground.html">геологических данных</a>, <a href="ru/rb_survey/dtm/general_information.html">работа с ЦММ</a>, импорт данных из других программных приложений подробно рассматривались в предыдущих томах.
+    animated: true
+    children:
+      - type: 'basic-card'
+        title: Общие задачи
+        links:
+          - url: 'design_plan_pipes/basic_definitions_new.md'
+            text: 'Основные определения'
+            theme: 'normal'
+            arrow: true
+          - url: 'design_plan_pipes/create_model_new.md'
+            text: 'Создание модели инженерной сети'
+            theme: 'normal'
+            arrow: true
+          - url: 'design_plan_pipes/settings_create_model_new.md'
+            text: 'Настройки модели инженерной сети'
+            theme: 'normal'
+            arrow: true
+          - url: 'design_plan_pipes/characteristics.md'
+            text: 'И другие'
+            theme: 'normal'
+            arrow: true
+      - type: 'basic-card'
+        title: Продольный профиль
+        arrow: true
+        links:
+          - url: 'design_profile_pipes/setup_window_profile_new.md'
+            text: 'Общие сведения и настройка окна Профиль сети'
+            theme: 'normal'
+            arrow: true
+          - url: 'design_profile_pipes/edit_profiles_pipelines_new.md'
+            text: 'Редактирование профиля сети'
+            theme: 'normal'
+            arrow: true
+      - type: 'basic-card'
+        title: Формирование выходной документации
+        arrow: true
+        links:
+          - url: 'formation_documentation/creation_output_drawings_new.md'
+            text: 'Создание чертежей'
+            theme: 'normal'
+            arrow: true
+          - url: 'formation_documentation/creation_output_statements_new.md'
+            text: 'Создание ведомостей'
+            theme: 'normal'
+            arrow: true

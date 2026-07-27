@@ -1,0 +1,112 @@
+title: 'Справка — {{robur}}'
+href: ../index.yaml
+
+navigation:
+  logo:
+    url: ../../../index/ru/
+    urlTitle: 'Вернуться на главную'
+    dark:
+      icon: https://download.topomatic.ru/public/media/docviewer/centre_logo_dark.svg
+    light:
+      icon: https://download.topomatic.ru/public/media/docviewer/centre_logo.svg
+  header:
+    leftItems:
+      - type: 'dropdown'
+        text: 'Продукты'
+        items:
+          - text: '{{robur}}'
+            url: '../../../robur/ru/'
+            type: 'link'
+          - text: '{{cloud}}'
+            url: '../../../cloud/ru/'
+            type: 'link'
+          - text: '{{topomatic-360}}'
+            url: '../../../albatros/ru/'
+            type: 'link'
+      #- type: 'dropdown'
+      #  text: 'Сервисы'
+      #  items:
+      #    - text: '{{id}}'
+      #      url: ''
+      #      type: 'link'
+      #- text: 'Для разработчиков'
+      #  url: ''
+      #  type: 'link'
+    rightItems:
+      - type: 'link'
+        text: 'FAQ'
+        url: 'https://topomatic.ru/maintenance/faq/'
+        arrow: true
+      - type: 'link'
+        text: 'Топоматик Поддержка'
+        url: 'https://support.topomatic.ru/'
+        arrow: true
+      - type: controls
+
+items:
+  - name: Топоматик Robur - Инженерные сети
+    href: index.yaml
+    labeled: true
+    items:
+      - name: Общие задачи
+        expanded: true
+        items:
+          - name: Основные определения
+            href: design_plan_pipes/basic_definitions_new.md
+          - name: Создание модели инженерной сети
+            href: design_plan_pipes/create_model_new.md
+          - name: Настройки модели инженерной сети
+            href: design_plan_pipes/settings_create_model_new.md
+          - name: Создание линии сети
+            href: design_plan_pipes/creation_pipeline.md
+          - name: Создание узла сети
+            href: design_plan_pipes/creation_wells_new.md
+          - name: Создание футляра
+            href: design_plan_pipes/creating_casing.md
+          - name: Редактирование сети
+            href: design_plan_pipes/edit_elements_network_new.md
+          - name: Свойства элементов сети
+            href: design_plan_pipes/characteristics.md
+          - name: Конструкции узлов (в разработке)
+            href: design_plan_pipes/template_wells_new.md
+          - name: Конструкции сегментов (в разработке)
+            href: design_plan_pipes/template_segments_new.md
+          - name: Точки подключения
+            href: design_plan_pipes/connection_segment_dots_wells_new.md
+          - name: Пересечения сетей (в разработке)
+            href: design_plan_pipes/cross_plan_new.md
+          - name: Траншеи и котлованы (в разработке)
+            href: design_plan_pipes/creation_trench_new.md
+          - name: Зоны отвода
+            href: design_plan_pipes/creation_zone_new.md
+          - name: Расчеты
+            href: design_plan_pipes/calculations.md
+          - name: Утилиты
+            items:
+            - name: Обновление данных сети
+              href: design_plan_pipes/utilities_new/refresh.md
+            - name: Переименование узлов
+              href: design_plan_pipes/utilities_new/rename_nodes.md
+            - name: Схема сети
+              href: design_plan_pipes/utilities_new/scheme.md
+            - name: Добавить объемный узел в библиотеку
+              href: design_plan_pipes/utilities_new/massive_node.md
+            - name: Дополнительные функции
+              href: design_plan_pipes/utilities_new/else.md
+            - name: Работа с геологическими данными
+              href: design_plan_pipes/utilities_new/geology.md
+          - name: Архив
+            href: design_plan_pipes/archive.md
+      - name: Продольный профиль
+        expanded: true
+        items:
+          - name: Общие сведения и настройка окна Профиль сети
+            href: design_profile_pipes/setup_window_profile_new.md
+          - name: Редактирование профиля сети
+            href: design_profile_pipes/edit_profiles_pipelines_new.md
+      - name: Формирование выходной документации
+        items:
+          - name: Создание чертежей
+            href: formation_documentation/creation_output_drawings_new.md
+          - name: Создание ведомостей
+            href: formation_documentation/creation_output_statements_new.md

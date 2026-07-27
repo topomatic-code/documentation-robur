@@ -1,0 +1,120 @@
+title: 'Справка — {{robur}}'
+href: ../index.yaml
+
+navigation:
+  logo:
+    url: ../../../index/ru/
+    urlTitle: 'Вернуться на главную'
+    dark:
+      icon: https://download.topomatic.ru/public/media/docviewer/centre_logo_dark.svg
+    light:
+      icon: https://download.topomatic.ru/public/media/docviewer/centre_logo.svg
+  header:
+    leftItems:
+      - type: 'dropdown'
+        text: 'Продукты'
+        items:
+          - text: '{{robur}}'
+            url: '../../../robur/ru/'
+            type: 'link'
+          - text: '{{cloud}}'
+            url: '../../../cloud/ru/'
+            type: 'link'
+          - text: '{{topomatic-360}}'
+            url: '../../../albatros/ru/'
+            type: 'link'
+      #- type: 'dropdown'
+      #  text: 'Сервисы'
+      #  items:
+      #    - text: '{{id}}'
+      #      url: ''
+      #      type: 'link'
+      #- text: 'Для разработчиков'
+      #  url: ''
+      #  type: 'link'
+    rightItems:
+      - type: 'link'
+        text: 'FAQ'
+        url: 'https://topomatic.ru/maintenance/faq/'
+        arrow: true
+      - type: 'link'
+        text: 'Топоматик Поддержка'
+        url: 'https://support.topomatic.ru/'
+        arrow: true
+      - type: controls
+
+items:
+  - name: Чертежи и ведомости
+    href: index.yaml
+    labeled: true
+    items:
+      - name: Общие положения
+        href: general_provisions.md
+      - name: Создание чертежей
+        href: create_drawings.md
+      - name: Изменение формата созданного чертежа
+        href: change_format_drawings.md
+      - name: Создание чертежа ситуационного плана
+        href: create_drawings_plan.md
+      - name: Создание чертежей топографических планшетов
+        href: create_drawings_topographic_tablets.md
+      - name: Создание чертежа продольного профиля
+        href: create_drawing_longitudinal_profile.md
+      - name: Создание чертежа поперечных профилей
+        href: create_drawing_cross_profiles.md
+      - name: Создание чертежей пересекаемых коммуникаций
+        href: creation_drawings_cross_communications.md
+      - name: Создание выходных ведомостей
+        href: create_statements.md
+      - name: Редактирование динамических выходных ведомостей
+        expanded: true
+        items:
+          - name: Подходы к редактированию динамической ведомости
+            href: dynamic_vedomosti/edit_vedomosti_and_pattern.md
+          - name: Редактирование макета ведомости
+            href: dynamic_vedomosti/edit_maket.md
+          - name: Редактирование шаблона ведомости
+            href: dynamic_vedomosti/edit_pattern.md
+          - name: Редактор шаблона
+            href: dynamic_vedomosti/review_edit.md
+          - name: Инструменты Редактора шаблона
+            href: dynamic_vedomosti/tools_edit.md
+          - name: Пример редактирования шаблона ведомости
+            href: dynamic_vedomosti/example_pattern.md
+          # - name: Общие функции по взаимодействию с динамическими данными (в разработке).
+          #   href: dynamic_vedomosti//empty_page.md
+      - name: Редактирование динамических выходных чертежей
+        expanded: true
+        items:
+          - name: Общие сведения
+            href: edit_dynamic_drawing/general_information.md
+          - name: Основные термины
+            href: edit_dynamic_drawing/basic_terms.md
+          - name: Рабочее окно динамического чертежа
+            href: edit_dynamic_drawing/working_window_dynamic_drawing.md
+          - name: Механизмы работы в пространстве Макет
+            items:
+              - name: Общие сведения
+                href: edit_dynamic_drawing/working_in_layout/general_information.md
+              - name: Режим Редактирование макета
+                href: edit_dynamic_drawing/working_in_layout/edit_layout.md
+              - name: Режим Редактирование шаблона
+                items:
+                  - name: Общие сведения
+                    href: edit_dynamic_drawing/working_in_layout/edit_pattern/general_information.md
+                  - name: Состав шаблона динамического чертежа
+                    href: edit_dynamic_drawing/working_in_layout/edit_pattern/template_pattern.md
+                  - name: Пример редактирования шаблона динамического чертежа
+                    href: edit_dynamic_drawing/working_in_layout/edit_pattern/example_edit_pattern.md
+                  - name: Сохранение пользовательского шаблона
+                    href: edit_dynamic_drawing/working_in_layout/edit_pattern/save_pattern.md
+                  - name: Редактирование ссылочных подобъектов
+                    href: edit_dynamic_drawing/working_in_layout/additional_optionsn_1.md
+          - name: Теги шаблонов чертежей
+            items:
+              - name: Теги шаблона чертежа поперечного профиля
+                href: edit_dynamic_drawing/tags_pattern_drawing/tags_cross_section.md
+              - name: Теги шаблона чертежа продольного профиля
+                href: edit_dynamic_drawing/tags_pattern_drawing/tags_longitudinal_profile.md
+              - name: Теги данных Геологии
+                href: edit_dynamic_drawing/tags_pattern_drawing/tags_data_geology.md

@@ -1,0 +1,85 @@
+title: 'Топоматик Robur - Изыскания'
+blocks:
+  - type: 'card-layout-block'
+    title: 'Топоматик Robur - Изыскания'
+    description:  >-
+     В разделе рассматриваются вопросы создания и редактирования цифровой модели местности (ЦММ), оформление топографических планов и формирования чертежей планшетов.
+     <p>
+     Описан функционал работы с планом трассы (как существующей, так и проектируемой), а также основные способы формирования «черных» профилей и поперечников.
+     <p>
+     Рассмотрен функционал работы с геодезическими данными —загрузка их измерений, обработка и формирование выходной документации, а также вопросы создания и редактирования геологических данных – библиотеки грунтов и выработок, основные механизмы нанесения геологических разрезов на профили, формирования выходных чертежей и ведомостей.
+     </p>
+    animated: true
+    children:
+      - type: 'basic-card'
+        title: ЦММ
+        links:
+          - url: 'dtm/sfc/points/notion_dots.md'
+            text: 'Точки'
+            theme: 'normal'
+            arrow: true
+          - url: 'dtm/sfc/structure_lines/notion_structural_lines.md'
+            text: 'Структурные линии'
+            theme: 'normal'
+            arrow: true
+          - url: 'dtm/codifier/settings_codifier.md'
+            text: 'Изыскательсктй кодификатор'
+            theme: 'normal'
+            arrow: true
+          - url: 'dtm/planchet/topographic_plan/enter_conditional_signs.md'
+            text: 'И другие'
+            theme: 'normal'
+            arrow: true
+      - type: 'basic-card'
+        title: Трасса
+        links:
+          - url: 'alg/plan_track/plan_track.md'
+            text: 'План трассы'
+            theme: 'normal'
+            arrow: true
+          - url: 'alg/track_profile/create_black_profile.md'
+            text: 'Продольный профиль'
+            theme: 'normal'
+            arrow: true
+          - url: 'alg/track_crossection/createing_and_editing_black_diameters.md'
+            text: 'Поперечные профили'
+            theme: 'normal'
+            arrow: true
+      - type: 'basic-card'
+        title: Геодезия
+        links:
+          - url: 'survey/basic_concepts.md'
+            text: 'Основные понятия'
+            theme: 'normal'
+            arrow: true
+          - url: 'survey/create_shooting.md'
+            text: 'Создание съемки'
+            theme: 'normal'
+            arrow: true
+          - url: 'survey/import_survey_data.md'
+            text: 'Импорт съемочных данных'
+            theme: 'normal'
+            arrow: true
+          - url: 'survey/window_editor_geodetic_measurements.md'
+            text: 'И другие'
+            theme: 'normal'
+            arrow: true
+      - type: 'basic-card'
+        title: Геология
+        links:
+          - url: 'glg/creation_legend_ground.md'
+            text: 'Создание легенды грунтов'
+            theme: 'normal'
+            arrow: true
+          - url: 'glg/creation_table_workings.md'
+            text: 'Создание таблицы выработок'
+            theme: 'normal'
+            arrow: true
+          - url: 'glg/laboratory/laboratory_in_robur.md'
+            text: 'Лаборатория'
+            theme: 'normal'
+            arrow: true
+          - url: 'glg/application_geological_layers.md'
+            text: 'И другие'
+            theme: 'normal'
+            arrow: true

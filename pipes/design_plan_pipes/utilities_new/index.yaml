@@ -1,0 +1,24 @@
+title: Утилиты
+description: >-
+meta:
+  title: Утилиты
+  description: >-
+links:
+- title: Обновление данных сети
+  description: ''
+  href: refresh.md
+- title: Переименование узлов
+  description: ''
+  href: rename_nodes.md
+- title: Схема сети
+  description: ''
+  href: scheme.md
+- title: Добавить объемный узел в библиотеку
+  description: ''
+  href: massive_node.md
+- title: Дополнительные функции
+  description: ''
+  href: else.md
+- title: Работа с геологическими данными
+  description: ''
+  href: geology.md

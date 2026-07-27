@@ -1,0 +1,688 @@
+title: 'Справка — {{robur}}'
+href: ../index.yaml
+
+navigation:
+  logo:
+    url: ../../../index/ru/
+    urlTitle: 'Вернуться на главную'
+    dark:
+      icon: https://download.topomatic.ru/public/media/docviewer/centre_logo_dark.svg
+    light:
+      icon: https://download.topomatic.ru/public/media/docviewer/centre_logo.svg
+  header:
+    leftItems:
+      - type: 'dropdown'
+        text: 'Продукты'
+        items:
+          - text: '{{robur}}'
+            url: '../../../robur/ru/'
+            type: 'link'
+          - text: '{{cloud}}'
+            url: '../../../cloud/ru/'
+            type: 'link'
+          - text: '{{topomatic-360}}'
+            url: '../../../albatros/ru/'
+            type: 'link'
+      #- type: 'dropdown'
+      #  text: 'Сервисы'
+      #  items:
+      #    - text: '{{id}}'
+      #      url: ''
+      #      type: 'link'
+      #- text: 'Для разработчиков'
+      #  url: ''
+      #  type: 'link'
+    rightItems:
+      - type: 'link'
+        text: 'FAQ'
+        url: 'https://topomatic.ru/maintenance/faq/'
+        arrow: true
+      - type: 'link'
+        text: 'Топоматик Поддержка'
+        url: 'https://support.topomatic.ru/'
+        arrow: true
+      - type: controls
+
+items:
+  - name: Топоматик Robur - Изыскания
+    href: index.yaml
+    labeled: true
+    items:
+      - name: ЦММ
+        expanded: true
+        items:
+          - name: Общие сведения
+            href: dtm/general_information.md
+          - name: Чертёж
+            items:
+              - name: Типы примитивов чертежа
+                href: dtm/dwg/types_primitives_drawing.md
+              - name: Создание отрезка
+                href: dtm/dwg/create_line.md
+              - name: Создание луча
+                href: dtm/dwg/create_beam.md
+              - name: Создание прямой
+                href: dtm/dwg/create_direct.md
+              - name: Создание полилинии
+                href: dtm/dwg/create_polyline.md
+              - name: Создание мультилиний
+                href: dtm/dwg/create_multilines.md
+              - name: Создание многоугольника
+                href: dtm/dwg/create_polygon.md
+              - name: Создание прямоугольника
+                href: dtm/dwg/create_rectangle.md
+              - name: Создание окружности
+                href: dtm/dwg/create_circle.md
+              - name: Создание дуги
+                href: dtm/dwg/create_arc.md
+              - name: Создание 3D Грани
+                href: dtm/dwg/create_3d_face.md
+              - name: Создание клотоид
+                href: dtm/dwg/create_clothoid.md
+              - name: Создание фигуры
+                href: dtm/dwg/create_a_shape.md
+              - name: Создание кольца
+                href: dtm/dwg/create_ring.md
+              - name: Создание сплайна
+                href: dtm/dwg/create_spline.md
+              - name: Создание эллипса
+                href: dtm/dwg/create_ellipse.md
+              - name: Создание блока
+                href: dtm/dwg/create_block.md
+              - name: Вставка блоков
+                href: dtm/dwg/insert_blocks.md
+              - name: Задание базовой точки
+                href: dtm/dwg/assignment_base_point.md
+              - name: Задание атрибутов
+                href: dtm/dwg/assignment_attributes.md
+              - name: Вставка растрового изображения
+                href: dtm/dwg/insert_raster_image.md
+              - name: Пакетная вставка растрового изображения
+                href: dtm/dwg/batch_insert_raster_image.md
+              - name: Создание точек
+                href: dtm/dwg/create_dots.md
+              - name: Создание штриховки
+                href: dtm/dwg/create_hatching.md
+              - name: Создание маскировки
+                href: dtm/dwg/create_masking.md
+              - name: Создание облака
+                href: dtm/dwg/create_clouds.md
+              - name: Создание текста
+                href: dtm/dwg/create_text.md
+              - name: Размеры
+                items:
+                  - name: Типы размеров
+                    href: dtm/dwg/dimensions/dimensional_types.md
+                  - name: Нанесение размеров
+                    href: dtm/dwg/dimensions/drawing_dimensions.md
+                  - name: Смещение размеров
+                    href: dtm/dwg/dimensions/displacement_dimensions.md
+                  - name: Выноска
+                    href: dtm/dwg/dimensions/footnote.md
+                  - name: Маркер центра
+                    href: dtm/dwg/dimensions/center_marker.md
+                  - name: Размерный текст
+                    href: dtm/dwg/dimensions/dimensional_text.md
+                  - name: Переопределение размера
+                    href: dtm/dwg/dimensions/redefining_dimension.md
+              - name: Задание команд для редактирования объектов чертежа
+                href: dtm/dwg/assignment_commands_for_edit_drawing.md
+              - name: Удаление объектов
+                href: dtm/dwg/delete_objects.md
+              - name: Копирование объектов
+                href: dtm/dwg/copying_objects.md
+              - name: Зеркальное отражение
+                href: dtm/dwg/mirror_reflection.md
+              - name: Создание подобных объектов
+                href: dtm/dwg/create_similar_objects.md
+              - name: Работа с массивами
+                href: dtm/dwg/work_with_arrays.md
+              - name: Перенос объектов
+                href: dtm/dwg/transference_objects.md
+              - name: Поворот объектов
+                href: dtm/dwg/turn_objects.md
+              - name: Масштабирование
+                href: dtm/dwg/scaling.md
+              - name: Выравнивание объектов
+                href: dtm/dwg/alignment_objects.md
+              - name: Обрезка объектов
+                href: dtm/dwg/pruning_objects.md
+              - name: Удлинение объектов
+                href: dtm/dwg/elongation_objects.md
+              - name: Разрыв объектов в заданной точке
+                href: dtm/dwg/gap_in_given_dot.md
+              - name: Разрыв объектов в двух точках
+                href: dtm/dwg/gap_in_two_dots.md
+              - name: Объединение объектов
+                href: dtm/dwg/joinder_objects.md
+              - name: Создание фаски
+                href: dtm/dwg/create_chamfer.md
+              - name: Сопряжение
+                href: dtm/dwg/conjugation.md
+              - name: Расчленить
+                href: dtm/dwg/dismember.md
+              - name: Подрезка изображения
+                href: dtm/dwg/pruning_image.md
+              - name: Развернуть полилинию
+                href: dtm/dwg/reverse_polyline.md
+              - name: Преобразовать линейный объект
+                href: dtm/dwg/convert_linear_object.md
+              - name: Внешний редактор. Быстрый импорт/экспорт ситуации
+                href: dtm/dwg/quick_import_export_situation.md
+              - name: Подпись легенды
+                href: dtm/dwg/signature_legend.md
+              - name: Линия нулевых работ
+                href: dtm/dwg/line_null_work.md
+              - name: Таблицы
+                items:
+                  - name: Создание и настройка таблицы
+                    href: dtm/dwg/table/create_setting_table.md
+                  - name: Работа с таблицей
+                    href: dtm/dwg/table/work_table.md
+          - name: Поверхность
+            items:
+              - name: Импорт/экспорт
+                items:
+                  - name: Текстовый файл
+                    href: dtm/sfc/exchange/txt.md
+                  - name: ТХТ с привязкой точек к подобъекту
+                    href: dtm/sfc/exchange/txt_binding.md
+                  - name: DXF
+                    href: dtm/sfc/exchange/dxf.md
+                  - name: Credo
+                    href: dtm/sfc/exchange/credo.md
+                  - name: Robur
+                    href: dtm/sfc/exchange/robur.md
+                  - name: Indor Soft XML
+                    href: dtm/sfc/exchange/indor.md
+                  - name: Softdesk
+                    href: dtm/sfc/exchange/softdesk.md
+                  - name: Land XML
+                    href: dtm/sfc/exchange/land_xml.md
+                  - name: SDR33
+                    href: dtm/sfc/exchange/sdr33.md
+                  - name: Shape
+                    href: dtm/sfc/exchange/shape.md
+                  - name: Экспорт
+                    href: dtm/sfc/exchange/export.md
+                  - name: Основное меню
+                    href: dtm/sfc/exchange/main_menu.md
+              - name: Точки
+                items:
+                  - name: Понятие
+                    href: dtm/sfc/points/notion_dots.md
+                  - name: Ввод
+                    href: dtm/sfc/points/enter_dots.md  
+                  - name: Автоматически
+                    href: dtm/sfc/points/automatically_creating_dots_at_nodes_lines.md
+                  - name: Вдоль линии/кривой
+                    href: dtm/sfc/points/creating_dots_along_lines.md
+                  - name: На линии/кривой
+                    href: dtm/sfc/points/creating_dots_at_lines.md
+                  - name: Разделить объект
+                    href: dtm/sfc/points/creating_group_dots.md
+                  - name: Разметить объект
+                    href: dtm/sfc/points/creating_group_dots_with_given_interval.md
+                  - name: Вершины полилинии
+                    href: dtm/sfc/points/creating_dots_in_apexs_polyline.md
+                  - name: Перемещение подписей на плане
+                    href: dtm/sfc/points/moving_signatures_dots.md
+                  - name: Свойства
+                    href: dtm/sfc/points/properties_dots.md
+                  - name: Фильтрация
+                    href: dtm/sfc/points/filtering_dots.md
+                  - name: Пометить как дополнительные
+                    href: dtm/sfc/points/mark_dots.md
+                  - name: Искать по номеру
+                    href: dtm/sfc/points/search_dots.md
+                  - name: Назначить код по структурной линии
+                    href: dtm/sfc/points/appointment_codes_dots.md
+                  - name: Копировать отметку с текста
+                    href: dtm/sfc/points/appointment_elevation_dots_text.md
+                  - name: Изменить отметки в заданном доступе
+                    href: dtm/sfc/points/change_elevation_dots.md
+                  - name: Развернуть по линейному объекту
+                    href: dtm/sfc/points/turn_dots_linear_object.md
+                  - name: Поднять/опустить точки
+                    href: dtm/sfc/points/raise_omit_dots.md
+                  - name: Сдвинуть точки на примитив
+                    href: dtm/sfc/points/shift_dots.md
+                  - name: Юстировать
+                    href: dtm/sfc/points/adjustment_dots.md
+                  - name: Подсветить
+                    href: dtm/sfc/points/backlight_dots.md
+                  - name: Тестировать точки
+                    href: dtm/sfc/points/testing_dots.md
+                  - name: Корректировать
+                    href: dtm/sfc/points/correction_dots.md
+                  - name: Фильтровать
+                    href: dtm/sfc/points/hiding_dots.md
+                  - name: Редактировать атрибуты
+                    href: dtm/sfc/points/edit_attributes.md
+                  - name: Настройки
+                    href: dtm/sfc/points/settings_display_dots.md
+              - name: Структурные линии
+                items:
+                  - name: Понятие
+                    href: dtm/sfc/structure_lines/notion_structural_lines.md
+                  - name: Ввод
+                    href: dtm/sfc/structure_lines/enter_structural_lines.md
+                  - name: Вставить узел
+                    href: dtm/sfc/structure_lines/insert_nodes_in_structural_lines.md
+                  - name: Удалить узел
+                    href: dtm/sfc/structure_lines/delete_nodes_from_structural_lines.md
+                  - name: Удалить дополнительные узлы
+                    href: dtm/sfc/structure_lines/delete_nodes_additional_from_structural_lines.md
+                  - name: Вставить дугу
+                    href: dtm/sfc/structure_lines/insert_nodes_in_structural_lines_across_arc.md
+                  - name: Переместить узел
+                    href: dtm/sfc/structure_lines/moving_nodes_structural_lines.md
+                  - name: Нумерация узлов
+                    href: dtm/sfc/structure_lines/numeration_nodes_structural_lines.md
+                  - name: Разорвать
+                    href: dtm/sfc/structure_lines/discontinuity_structural_lines.md
+                  - name: Объединить
+                    href: dtm/sfc/structure_lines/merging_structural_lines.md
+                  - name: Удлинить
+                    href: dtm/sfc/structure_lines/elongation_structural_lines.md
+                  - name: Обрезать
+                    href: dtm/sfc/structure_lines/pruning_structural_lines.md
+                  - name: Копировать по дистанции
+                    href: dtm/sfc/structure_lines/copying_structural_lines_across_distance.md
+                  - name: Копировать с приращением координат
+                    href: dtm/sfc/structure_lines/copying_structural_lines_across_increment_coordinate.md
+                  - name: Задать отметку точкам
+                    href: dtm/sfc/structure_lines/appointment_height_structural_lines.md
+                  - name: Спроецировать на поверхность
+                    href: dtm/sfc/structure_lines/appointment_excess_structural_lines.md
+                  - name: Пересечь с рёбрами
+                    href: dtm/sfc/structure_lines/projection_structural_lines_on_triangles.md
+                  - name: Изменить уклон сегмента
+                    href: dtm/sfc/structure_lines/appointment_downhill_segments_structural_lines.md
+                  - name: Сгладить
+                    href: dtm/sfc/structure_lines/smooth_structural_lines.md
+                  - name: Выделить точки внутри
+                    href: dtm/sfc/structure_lines/selection_dots_inside_structural_lines.md
+                  - name: Выделить точки между
+                    href: dtm/sfc/structure_lines/selection_dots_between_structural_lines.md
+                  - name: Выделить треугольники внутри
+                    href: dtm/sfc/structure_lines/selection_triangles_inside_structural_lines.md
+                  - name: Выделить треугольники между
+                    href: dtm/sfc/structure_lines/selection_triangles_between_structural_lines.md
+                  - name: Выделить образующие точки
+                    href: dtm/sfc/structure_lines/selection_forming_dots_structural_lines.md
+                  - name: Тестировать
+                    href: dtm/sfc/structure_lines/testing_structural_lines.md
+                  - name: Свойства
+                    href: dtm/sfc/structure_lines/editing_structural_lines_from_window_properties.md
+                  - name: Настройки
+                    href: dtm/sfc/structure_lines/settings_display_structural_lines.md
+              - name: Участки
+                items:
+                  - name: Понятие
+                    href: dtm/sfc/patches/notion_of_parcels.md
+                  - name: Создать
+                    href: dtm/sfc/patches/creating_of_parcels.md
+                  - name: Разбить
+                    href: dtm/sfc/patches/split_plot.md
+                  - name: Добавить треугольники
+                    href: dtm/sfc/patches/adding_triangles_to_plot.md
+                  - name: Удалить треугольники
+                    href: dtm/sfc/patches/removal_triangles_from_plot.md
+                  - name: Объединить
+                    href: dtm/sfc/patches/merger_plot.md
+                  - name: Восстановить контур
+                    href: dtm/sfc/patches/recovery_contour_plot.md
+                  - name: Свойства
+                    href: dtm/sfc/patches/editing_plot_from_window_properties.md
+              - name: Создание и редактирование поверхности
+                items:
+                  - name: Основные понятия и определения
+                    href: dtm/sfc/edit/basic_terms_and_definition.md
+                  - name: Перестроить поверхность
+                    href: dtm/sfc/edit/construction_surface.md
+                  - name: Удалить триангуляцию
+                    href: dtm/sfc/edit/removal_triangulation.md
+                  - name: Удалить триангуляцию внутри контура
+                    href: dtm/sfc/edit/removal_triangulation_inside_contour.md
+                  - name: Редактирование поверхности
+                    href: dtm/sfc/edit/editing_surface.md
+                  - name: Перевернуть ребро
+                    href: dtm/sfc/edit/upend_rib.md
+                  - name: Добавить треугольник
+                    href: dtm/sfc/edit/append_triangle_manually.md
+                  - name: Перестроить внутри контура
+                    href: dtm/sfc/edit/construction_surface_inside_contour.md
+                  - name: Перестроить между линиями
+                    href: dtm/sfc/edit/construction_surface_between_lines.md
+                  - name: Вырезать поверхность по замкнутому контуру
+                    href: dtm/sfc/edit/excision_surface_closed_contour.md
+                  - name: Разделить поверхность
+                    href: dtm/sfc/edit/fission_surface.md
+                  - name: Создать поверхность по зонам высот
+                    href: dtm/sfc/edit/construction_surface_across_zone_heights.md
+                  - name: Разность поверхностей
+                    href: dtm/sfc/edit/difference_surface.md
+                  - name: Зоны перекрытия поверхностей
+                    href: dtm/sfc/edit/creating_zone_overlap_surfaces.md
+                  - name: Слияние поверхностей
+                    href: dtm/sfc/edit/merger_surfaces.md
+                  - name: Создать регулярную поверхность
+                    href: dtm/sfc/edit/creating_regular_surface.md
+                  - name: Поверхность по коду
+                    href: dtm/sfc/edit/surface_across_code.md
+                  - name: Поверхность по нескольким линиям с кодом
+                    href: dtm/sfc/edit/surface_on_several_lines_codes.md
+                  - name: Перестроить проектную поверхность
+                    href: dtm/sfc/edit/rebuild_project_surface.md
+                  - name: Построить поверхность по квадратам
+                    href: dtm/sfc/edit/construction_surface_squares.md
+                  - name: Построить поверхность по профилям
+                    href: dtm/sfc/edit/construction_surface_profiles.md
+                  - name: Поверхность по СГР
+                    href: dtm/sfc/edit/surface_across_head_rail.md
+                  - name: Тестировать треугольники
+                    href: dtm/sfc/edit/testing_triangle.md
+                  - name: Статистика поверхности
+                    href: dtm/sfc/edit/statistics_surface.md
+                  - name: Просмотр участка в 3D виде
+                    href: dtm/sfc/edit/browse_area_surface.md
+                  - name: Совместная работа
+                    href: dtm/sfc/edit/team_working.md
+                  - name: Настройки
+                    href: dtm/sfc/edit/setting_display_elements_surface.md
+              - name: Горизонтали
+                items:
+                  - name: Понятие
+                    href: dtm/sfc/horizontals/notion_horizontals.md
+                  - name: Подписать горизонтали
+                    href: dtm/sfc/horizontals/signature_horizontals.md
+                  - name: Подписать горизонтали автоматически
+                    href: dtm/sfc/horizontals/signature_horizontals_automatic.md
+                  - name: Удалить подпись горизонтали
+                    href: dtm/sfc/horizontals/removal_signatures_horizontals.md
+                  - name: Подписать бергштрихи
+                    href: dtm/sfc/horizontals/signature_berhshtryhy.md
+                  - name: Удалить подпись бергштриха
+                    href: dtm/sfc/horizontals/removal_signature_berhshtryhy.md
+                  - name: Настройки
+                    href: dtm/sfc/horizontals/settings_display_horizontals.md
+              - name: Дополнительные функции
+                items:
+                  - name: Создание сечений
+                    href: dtm/sfc/additional_function/creating_sections.md
+                  - name: Сток воды
+                    href: dtm/sfc/additional_function/stoke_water.md
+                  - name: Измерить уклон
+                    href: dtm/sfc/additional_function/measure_slope.md
+          - name: Топографический план
+            items:
+              - name: Оформление
+                items:
+                  - name: Особенности реализации
+                    href: dtm/planchet/topographic_plan/appointment_editor_topographic_plan.md
+                  - name: Ввод условных знаков
+                    href: dtm/planchet/topographic_plan/enter_conditional_signs.md
+                  - name: Вставка точечных условных знаков в ЦММ
+                    href: dtm/planchet/topographic_plan/insert_dotty_conditional_signs.md
+                  - name: Ввод линейных условных знаков
+                    href: dtm/planchet/topographic_plan/enter_linear_conditional_signs.md
+                  - name: Подпись характеристик линейных объектов
+                    href: dtm/planchet/topographic_plan/signature_characteristics_linear_objects.md
+                  - name: Отрисовка, редактирование примитива Откос
+                    href: dtm/planchet/topographic_plan/edit_primitive_escarp.md
+                  - name: Редактирование профиля сечения
+                    href: dtm/planchet/topographic_plan/edit_profile_section.md
+                  - name: Ввод площадных условных знаков в ЦММ
+                    href: dtm/planchet/topographic_plan/enter_areal_conditional_signs.md
+                  - name: Подпись координатной сетки
+                    href: dtm/planchet/topographic_plan/signature_coordinate_mesh.md
+                  - name: Ввод условных знаков на продольном профиле
+                    href: dtm/planchet/topographic_plan/enter_conditional_signs_on_longitudinal_profile.md
+                  - name: Формирование планшетов
+                    href: dtm/planchet/topographic_plan/formation_tablets.md
+              - name: Пользовательские шаблоны листов
+                items:
+                  - name: Добавление листа
+                    href: dtm/planchet/sheet_templates/add_user_template.md
+                  - name: Структура шаблона
+                    href: dtm/planchet/sheet_templates/structure_user_template.md
+              - name: Раскладка планшетов
+                items:
+                  - name: Раскладка листов вдоль трассы
+                    href: dtm/planchet/apportion_tablet/layout_sheets.md
+                  - name: Схема раскладки листов
+                    href: dtm/planchet/apportion_tablet/circuitry_layout_sheets.md
+                  - name: Раскладка планшетов в выбранной области
+                    href: dtm/planchet/apportion_tablet/layout_in_selected_area.md
+                  - name: Формирование чертежей планшетов
+                    href: dtm/planchet/apportion_tablet/formation_drawings.md
+                  - name: Динамический чертеж
+                    href: dtm/planchet/apportion_tablet/dynamic_drawing.md
+          - name: Изыскательский кодификатор
+            items:
+              - name: Общее
+                href: dtm/codifier/settings_codifier.md
+              - name: Структура
+                href: dtm/codifier/structure_codifier.md
+              - name: Создание и редактирование
+                href: dtm/codifier/creating_and_applying_codifier.md
+      - name: Трасса
+        expanded: true
+        items:
+          - name: Общие сведения
+            href: alg/general_information.md
+          - name: План трассы
+            items:
+              - name: План трассы
+                href: alg/plan_track/plan_track.md
+              - name: Способы построения плана трассы
+                href: alg/plan_track/method_creating_plan.md
+              - name: Редактирование положения трассы
+                href: alg/plan_track/redact_position_track.md
+              - name: Удаление трассы
+                href: alg/plan_track/delete_road.md
+              - name: Изменить направление оси
+                href: alg/plan_track/change_direction_axis.md
+              - name: Упрощенный план
+                href: alg/plan_track/simplified_plan.md
+              - name: Разбить подобъект
+                href: alg/plan_track/cutting_track.md
+              - name: Склейка трасс
+                href: alg/plan_track/glue_track.md
+              - name: Разбить вершины по ординате
+                href: alg/plan_track/smash_peaks_across_ordinate.md
+              - name: Выбор текущей трассы
+                href: alg/plan_track/choice_current_track.md
+              - name: Настройки отображения трассы
+                href: alg/plan_track/settings_display_track.md
+              - name: Разбивка пикетажа
+                href: alg/plan_track/smash_chaining.md
+              - name: Выровнять пикетаж по другому подобъекту
+                href: alg/plan_track/align_chaining_on_another_subobject.md
+              - name: Подбор оси
+                href: alg/plan_track/selection_axis.md
+              - name: Лекальное трассирование
+                href: alg/plan_track/pattern_tracing.md
+              - name: Редактор сопряжений
+                items:
+                  - name: Назначение
+                    href: alg/plan_track/redactor_conjugation/appointment_redactor_conjugation.md
+                  - name: Присоединение примитивов
+                    href: alg/plan_track/redactor_conjugation/joining_primitives.md
+                  - name: Построение перпендикуляра/касательной к объекту
+                    href: alg/plan_track/redactor_conjugation/create_perpendicular_to_object.md
+                  - name: Перемещение примитивов по касательной          
+                    href: alg/plan_track/redactor_conjugation/moving_primitives_by_tangent.md
+                  - name: Построение окружности от клотоиды          
+                    href: alg/plan_track/redactor_conjugation/create_circle_from_clothoid.md
+                  - name: Смещение линейного объекта          
+                    href: alg/plan_track/redactor_conjugation/displacement_linear_object.md
+                  - name: Вогнутое сопряжение переходными кривыми с круговой вставкой          
+                    href: alg/plan_track/redactor_conjugation/concave_conjugation.md
+                  - name: Выпуклое сопряжение переходными кривыми с круговой вставкой          
+                    href: alg/plan_track/redactor_conjugation/convex_conjugation.md
+                  - name: Построение симметричной биклотоиды          
+                    href: alg/plan_track/redactor_conjugation/create_symmetric_bichloride.md
+                  - name: Сопряжение окружности и прямой          
+                    href: alg/plan_track/redactor_conjugation/conjugation_clothoid.md
+                  - name: Сопряжение двух окружностей усеченной клотоидой          
+                    href: alg/plan_track/redactor_conjugation/conjugation_truncated_clothoid.md
+                  - name: Сопряжение двух окружностей          
+                    href: alg/plan_track/redactor_conjugation/conjugation_straight.md
+                  - name: Плановые построения          
+                    href: alg/plan_track/redactor_conjugation/planned_build.md
+          - name: Продольный профиль
+            items:
+              - name: Создание черного профиля
+                href: alg/track_profile/create_black_profile.md
+              - name: Редактирование черного профиля
+                href: alg/track_profile/edit_black_profile.md
+              - name: Визуальное редактирование черного профиля
+                href: alg/track_profile/visual_edit_black_profile.md
+              - name: Создание интерполированного профиля
+                href: alg/track_profile/create_interpolated_profile.md
+              - name: Создание спрямленного профиля
+                href: alg/track_profile/create_rectified_profile.md
+              - name: Загрузка подложек на продольный профиль
+                href: alg/track_profile/download_substrates_on_profile.md
+              - name: Настройка отображения продольного профиля
+                href: alg/track_profile/setting_display_profile.md
+          - name: Поперечные профили
+            items:
+              - name: Создание и редактирование черных поперечников
+                href: alg/track_crossection/createing_and_editing_black_diameters.md
+              - name: Создание списка поперечников
+                href: alg/track_crossection/creating_list_diameters.md
+              - name: Добавить поперечник
+                href: alg/track_crossection/add_diameter.md
+              - name: Вставка дополнительных поперечников
+                href: alg/track_crossection/insert_complementary_diameters.md
+              - name: Удаление поперечника
+                href: alg/track_crossection/delete_diameter.md
+              - name: Перемещение по списку поперечников
+                href: alg/track_crossection/moving_on_list_diameters.md
+              - name: Выбор группы поперечников
+                href: alg/track_crossection/choice_groups_diameters.md
+              - name: Пометить поперечники
+                href: alg/track_crossection/mark_diameters.md
+              - name: Редактирование черных поперечников
+                href: alg/track_crossection/editing_black_diameters.md
+              - name: Визуальное редактирование черных поперечников
+                href: alg/track_crossection/visual_editing_black_diameters.md
+              - name: Подсветка точек
+                href: alg/track_crossection/backlight_dots.md
+              - name: Настройка отображаемых данных в сетке поперечника
+                href: alg/track_crossection/settings_display_data_in_grid_diameter.md
+              - name: Векторные подложки на поперечнике
+                href: alg/track_crossection/vector_substrates_on_diameter.md
+      - name: Геодезия
+        items:
+          - name: Основные понятия
+            href: survey/basic_concepts.md
+          - name: Создание съемки
+            href: survey/create_shooting.md
+          - name: Импорт съемочных данных
+            href: survey/import_survey_data.md
+          - name: Открытие окна редактора геодезических измерений
+            href: survey/window_editor_geodetic_measurements.md
+          - name: Все пункты
+            href: survey/all_items.md
+          - name: Исходные пункты
+            href: survey/source_items.md
+          - name: Ориентирные направления
+            href: survey/orienting_direction.md
+          - name: Измерения
+            href: survey/measurement.md
+          - name: Тахеометрия
+            href: survey/tacheometry.md
+          - name: Теодолитные ходы
+            href: survey/theodolite_moves.md
+          - name: Обратная геодезическая задача (ОГЗ)
+            href: survey/reverse_geodetic_task.md
+          - name: Нивелирные ходы
+            href: survey/leveling_moves.md
+          - name: Расчет геометрического нивелирования
+            href: survey/calculation_geometric_leveling.md
+          - name: Расчет электронного нивелирования
+            href: survey/calculation_electronic_leveling.md
+          - name: Расчет тригонометрического нивелирования
+            href: survey/calculation_trigonometric_leveling.md
+          - name: Дополнительные настройки параметров расчета
+            href: survey/additional_settings_calculation.md
+          - name: Геодезические задачи
+            href: survey/geodetic_tasks.md
+          - name: Формирование выходных ведомостей
+            href: survey/formation_output_statements.md
+      - name: Геология
+        items:
+          - name: Создание легенды грунтов
+            href: glg/creation_legend_ground.md
+          - name: Создание таблицы грунтов
+            href: glg/creation_table_ground.md
+          - name: Создание таблицы выработок
+            href: glg/creation_table_workings.md
+          - name: Создание таблицы глобальных выработок
+            href: glg/creation_table_global_workings.md
+          - name: Отображение скважин на профиле
+            href: glg/displaying_boreholes_on_profile.md
+          - name: Перенос выработок из таблиц
+            href: glg/moving_workings_from_tables.md
+          - name: Импорт координат выработок из текстового файла
+            href: glg/import_coordinate_workings.md
+          - name: Снесение выработок на поперечники
+            href: glg/moving_workings_on_cross_profiles.md
+          - name: Создание фиктивных выработок на основе геологического разреза профиля
+            href: glg/creation_fictitious_workings.md
+          - name: Создание выработок на основе геологических слоев на поперечнике
+            href: glg/creation_workings.md
+          - name: Создание увязочных выработок
+            href: glg/creation_linked_workings.md
+          - name: Нанесение геологических слоев на продольный профиль
+            href: glg/application_geological_layers.md
+          - name: Редактирование контуров геологических слоев
+            href: glg/editing_contours_geological_layers.md
+          - name: Редактирование свойств базового геологического контура
+            href: glg/edit_properties_base_geological_contours.md
+          - name: Изменение границ базового геологического контура
+            href: glg/change_borders_basic_geological_contour.md
+          - name: Нанесение геологических слоев на поперечные профили
+            href: glg/application_geological_layers_cross_profiles.md
+          - name: Копирование геологии на поперечниках
+            href: glg/copy_geology_on_cross_profiles.md
+          - name: Измерить мощность геологических слоев
+            href: glg/measure_power_geological_layers.md
+          - name: Нанесение линии вечной мерзлоты
+            href: glg/inflict_line_permafrost.md
+          - name: Настройки режима отображения штриховок геологических контуров
+            href: glg/settings.md
+          - name: Импорт/экспорт геологических данных
+            href: glg/import_export_geological_data.md
+          - name: Создание ведомостей
+            href: glg/create_statementsg.md
+          - name: Формирование чертежей
+            href: glg/formation_drawings.md
+          - name: 3D-модель геологии
+            href: glg/geology_3d_model.md
+          - name: Лаборатория
+            items:
+              - name: Общие сведения о Лаборатории в Robur
+                href: glg/laboratory/laboratory_in_robur.md
+              - name: Термины и определения
+                href: glg/laboratory/terms_and_definition.md
+              - name: Создание Общей таблицы лаборатории
+                href: glg/laboratory/create_table_laboratory.md
+              - name: Шаблоны
+                href: glg/laboratory/description_template.md
+              - name: Работа с окном Таблица лаборатории
+                href: glg/laboratory/working_window_table_laboratory.md
+              - name: Управление таблицей
+                href: glg/laboratory/table_management.md
+              - name: Загрузка данных лаборатории из стороннего редактора
+                href: glg/laboratory/download_data_laboratory_other_redactor.md
+              - name: Распределение проб лаборатории по выработкам
+                href: glg/laboratory/distribution_samples_laboratory_by_workings.md
+              - name: Статистическая обработка результатов испытаний
+                href: glg/laboratory/statistical_processing_results_testing.md
+              - name: Формирование лабораторных ведомостей
+                href: glg/laboratory/formation_laboratory_statements.md

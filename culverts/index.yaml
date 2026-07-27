@@ -1,0 +1,32 @@
+title: 'Топоматик Robur - Искусственные сооружения'
+blocks:
+  - type: 'card-layout-block'
+    title: 'Топоматик Robur - Искусственные сооружения'
+    description: >-
+      <p>
+      В данном томе рассматривается функционал по созданию и редактированию водопропускных труб по СП 35.13330.2011 «Мосты и трубы» и альбомам типовых конструкций.
+      <p>
+      Основной инструментарий по созданию и редактированию водопропускных труб различного типа также приведен в видео-ролике <a href="https://rutube.ru/video/71d182078efba1dd3695a0155b1dc7ed/?playlist=522414">"Создание и редактирование водопропускных труб"</a>. 
+      <p>
+      Вопросы, связанные с подготовкой исходных данных, такие как: <a href="ru/rb_survey/survey/basic_concepts.html">обработка геодезических данных</a> и <a href="ru/rb_survey/glg/creation_legend_ground.html">геологических данных</a>, <a href="ru/rb_survey/dtm/general_information.html">работа с ЦММ</a>, импорт данных из других программных приложений подробно рассматривались в предыдущих томах.
+      animated: true
+    children:
+      - type: 'basic-card'
+        title: Искусственные сооружения
+        links:
+          - url: 'create_culvert_model.md'
+            text: 'Создание модели Водопропускная труба'
+            theme: 'normal'
+            arrow: true
+          - url: 'configuration_model.md'
+            text: 'Настройка модели Водопропускная труба'
+            theme: 'normal'
+            arrow: true
+          - url: 'choose_customization_constructions.md'
+            text: 'Выбор и настройка конструкции'
+            theme: 'normal'
+            arrow: true
+          - url: 'reconstruction.md'
+            text: 'И другие'
+            theme: 'normal'
+            arrow: true

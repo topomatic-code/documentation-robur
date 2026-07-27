@@ -1,0 +1,187 @@
+title: 'Общие задачи'
+blocks:
+  - type: 'card-layout-block'
+    title: 'Общие задачи'
+    description: В данном томе описан блок дополнительных задач, которые могут быть использованы при обработке материалов изысканий, а также при проектировании автомобильных и железных дорог.
+    animated: true
+    children:
+      - type: 'basic-card'
+        title: Коллективная работа
+        links:
+          - url: 'collaborate/setting_folders_project_for_collective_work.md'
+            text: 'Настройка папки проекта для коллективной работы'
+            theme: 'normal'
+            arrow: true
+          - url: 'collaborate/basic_principles_collective_work.md'
+            text: 'Основные принципы коллективной работы'
+            theme: 'normal'
+            arrow: true
+          - url: 'collaborate/general_information.md'
+            text: 'Коллективная работа с подобъектом. Общие сведения'
+            theme: 'normal'
+            arrow: true
+          - url: 'collaborate/sequence_work.md'
+            text: 'Другие'
+            theme: 'normal'
+            arrow: true
+      - type: 'basic-card'
+        title: Картограммы
+        links:
+          - url: 'cartogram/create_cartogram.md'
+            text: 'Создание площадных картограмм'
+            theme: 'normal'
+            arrow: true
+          - url: 'cartogram/setting_cartogram.md'
+            text: 'Настройка отображения картограммы'
+            theme: 'normal'
+            arrow: true
+      - type: 'basic-card'
+        title: Оценка устойчивости откосов
+        links:
+          - url: 'slope_stability/general_information.md'
+            text: 'Общие данные'
+            theme: 'normal'
+            arrow: true
+          - url: 'slope_stability/enter_initial_data.md'
+            text: 'Задание исходных данных и выполнение расчета'
+            theme: 'normal'
+            arrow: true
+          - url: 'slope_stability/enable_disable_data_calculation.md'
+            text: 'Включение\отключения данных расчета устойчивости на поперечниках'
+            theme: 'normal'
+            arrow: true
+          - url: 'slope_stability/enter_arbitrary_curve.md'
+            text: 'Другие'
+            theme: 'normal'
+            arrow: true
+      - type: 'basic-card'
+        title: Землеотвод
+        links:
+          - url: 'land_allotment/assignment_table_ethod.md'
+            text: 'Задание землеотвода табличным способом'
+            theme: 'normal'
+            arrow: true
+          - url: 'land_allotment/visual_editing_borders.md'
+            text: 'Визуальное редактирование границ отвода земель'
+            theme: 'normal'
+            arrow: true
+          - url: 'land_allotment/configure_basic_parameters_calculation.md'
+            text: 'Настройка основных параметров расчета'
+            theme: 'normal'
+            arrow: true
+          - url: 'land_allotment/setting_display_lines.md'
+            text: 'Другие'
+            theme: 'normal'
+            arrow: true
+      - type: 'basic-card'
+        title: Ввод водопропускных труб (АД/ ЖД/ Трасса)
+        links:
+          - url: 'general_culverts/culverts.md'
+            text: 'Ввод водопропускных труб'
+            theme: 'normal'
+            arrow: true
+          - url: 'general_culverts/edit_culverts.md'
+            text: 'Редактирование водопропускной трубы'
+            theme: 'normal'
+            arrow: true
+          - url: 'general_culverts/statement_artificial_constructions.md'
+            text: 'Ведомость искусственных сооружений'
+            theme: 'normal'
+            arrow: true
+      - type: 'basic-card'
+        title: Распределение земляных масс
+        links:
+          - url: 'soil_works/creating_apportionment_model.md'
+            text: 'Создание модели Распределения земляных масс'
+            theme: 'normal'
+            arrow: true
+          - url: 'soil_works/pre_settings_model/general_information.md'
+            text: 'Предварительные настройки модели'
+            theme: 'normal'
+            arrow: true
+          - url: 'soil_works/working_apportionment_participants/adding_zone_soil_works.md'
+            text: 'Добавление участников распределения'
+            theme: 'normal'
+            arrow: true
+          - url: 'soil_works/apportionment/automatic_apportionment_materials.md'
+            text: 'Другие'
+            theme: 'normal'
+            arrow: true
+      - type: 'basic-card'
+        title: Лазерное сканирование
+        links:
+          - url: 'lidar/import_data.md'
+            text: 'Импорт данных лазерного сканирования'
+            theme: 'normal'
+            arrow: true
+          - url: 'lidar/setting_display_cloud.md'
+            text: 'Настройка отображения облака точек'
+            theme: 'normal'
+            arrow: true
+          - url: 'lidar/functionality_working_with_cloud.md'
+            text: 'Функционал работы с облаком точек лазерного сканирования'
+            theme: 'normal'
+            arrow: true
+      - type: 'basic-card'
+        title: Работа с системами координат
+        links:
+          - url: 'coordinate_systems/coordinate_systems.md'
+            text: 'Работа с системами координат'
+            theme: 'normal'
+            arrow: true
+      - type: 'basic-card'
+        title: Загрузка интернет карт
+        links:
+          - url: 'maps/load_internet_cards.md'
+            text: 'Загрузка интернет карт'
+            theme: 'normal'
+            arrow: true
+      - type: 'basic-card'
+        title: Загрузка кадастровых данных
+        links:
+          - url: 'cadaster/download_data.md'
+            text: 'Загрузка данных'
+            theme: 'normal'
+            arrow: true
+          - url: 'cadaster/work_with_cadastral_data.md'
+            text: 'Работа с кадастровыми данными'
+            theme: 'normal'
+            arrow: true
+      - type: 'basic-card'
+        title: Связанные документы
+        links:
+          - url: 'linked_document/data_preparation.md'
+            text: 'Подготовка данных'
+            theme: 'normal'
+            arrow: true
+          - url: 'linked_document/add_linked_document_to_model.md'
+            text: 'Добавление связанного документа к модели'
+            theme: 'normal'
+            arrow: true
+          - url: 'linked_document/add_linked_document_to_object.md'
+            text: 'Добавление связанного документа к объекту'
+            theme: 'normal'
+            arrow: true
+          - url: 'linked_document/add_linked_document_to_cmm.md'
+            text: 'Другие'
+            theme: 'normal'
+            arrow: true
+      - type: 'basic-card'
+        title: Работа с комментариями
+        links:
+          - url: 'comments/adding_point_comment.md'
+            text: 'Добавление точечного комментария'
+            theme: 'normal'
+            arrow: true
+          - url: 'comments/adding_realm_comment.md'
+            text: 'Добавление области комментария'
+            theme: 'normal'
+            arrow: true
+          - url: 'comments/adding_comment_file.md'
+            text: 'Добавление комментария к файлу или проекту'
+            theme: 'normal'
+            arrow: true
+          - url: 'comments/editing_comments.md'
+            text: 'Другие'
+            theme: 'normal'
+            arrow: true

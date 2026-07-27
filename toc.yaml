@@ -1,0 +1,84 @@
+title: 'Справка — {{robur}}'
+href: index.yaml
+
+navigation:
+  logo:
+    url: ../../index/ru/
+    urlTitle: 'Вернуться на главную'
+    dark:
+      icon: https://download.topomatic.ru/public/media/docviewer/centre_logo_dark.svg
+    light:
+      icon: https://download.topomatic.ru/public/media/docviewer/centre_logo.svg
+  header:
+    leftItems:
+      - type: 'dropdown'
+        text: 'Продукты'
+        items:
+          - text: '{{robur}}'
+            url: '../../robur/ru/'
+            type: 'link'
+          - text: '{{cloud}}'
+            url: '../../cloud/ru/'
+            type: 'link'
+          - text: '{{topomatic-360}}'
+            url: '../../albatros/ru/'
+            type: 'link'
+      #- type: 'dropdown'
+      #  text: 'Сервисы'
+      #  items:
+      #    - text: '{{id}}'
+      #      url: ''
+      #      type: 'link'
+      #- text: 'Для разработчиков'
+      #  url: ''
+      #  type: 'link'
+    rightItems:
+      - type: 'link'
+        text: 'FAQ'
+        url: 'https://topomatic.ru/maintenance/faq/'
+        arrow: true
+      - type: 'link'
+        text: 'Топоматик Поддержка'
+        url: 'https://support.topomatic.ru/'
+        arrow: true
+      - type: controls
+
+items:
+  - name: Установка. Запуск и настройка
+    href: install_startup/index.yaml
+    labeled: true
+  - name: Топоматик Robur - Изыскания
+    href: rb_survey/index.yaml
+    labeled: true
+  - name: Топоматик Robur - Автомобильные дороги
+    href: road/index.yaml
+    labeled: true
+  - name: Топоматик Robur - Железные дороги
+    href: rail/index.yaml
+    labeled: true
+  - name: Топоматик Robur - Инженерные сети
+    href: pipes/index.yaml
+    labeled: true
+  - name: Топоматик Robur - Искусственные сооружения
+    href: culverts/index.yaml
+    labeled: true
+  - name: Топоматик Robur - Генеральные планы
+    href: genplan/index.yaml
+    labeled: true
+  - name: Топоматик Robur - Дорожная одежда (скоро)
+    #href: roadbed/index.yaml
+    labeled: true
+  - name: Общие задачи
+    href: commons_tasks/index.yaml
+    labeled: true
+  - name: Чертежи и ведомости
+    href: doc/index.yaml
+    labeled: true
+  - name: Приложение
+    href: doc/index.yaml
+    labeled: true
+  #- name: Дорожная одежда_new
+  #  href: road_bed_new/index.yaml
+  #  labeled: true
+  #  hidden: true
+  

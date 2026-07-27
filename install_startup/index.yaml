@@ -1,0 +1,45 @@
+title: 'Установка. Запуск и настройка'
+blocks:
+  - type: 'card-layout-block'
+    title: 'Установка. Запуск и настройка'
+    description: Данный раздел посвящен вопросам установки и начальной настройки программного комплекса (ПК) «{{robur}}». Рассматриваются варианты установки программного обеспечения (ПО), его обновления, а также настройки системы защиты.
+    animated: true
+    children:
+      - type: 'basic-card'
+        title: Установка
+        links:
+          - url: 'install/system_requirements.md'
+            text: 'Системные требования'
+            theme: 'normal'
+            arrow: true
+          - url: 'install/general_information_on_system.md'
+            text: 'Защита'
+            theme: 'normal'
+            arrow: true
+          - url: 'install/installation.md'
+            text: 'Установка'
+            theme: 'normal'
+            arrow: true
+          - url: 'install/key_update.md'
+            text: 'И другие'
+            theme: 'normal'
+            arrow: true
+      - type: 'basic-card'
+        title: Запуск и настройка
+        links:
+          - url: 'startup/startup_program/startup_program.md'
+            text: 'Запуск программы'
+            theme: 'normal'
+            arrow: true
+          - url: 'startup/general_setting/storage.md'
+            text: 'Хранилища проектов'
+            theme: 'normal'
+            arrow: true
+          - url: 'startup/structure_project/structure_project.md'
+            text: 'Структура проекта'
+            theme: 'normal'
+            arrow: true
+          - url: 'startup/general_setting/design.md'
+            text: 'И другие'
+            theme: 'normal'
+            arrow: true

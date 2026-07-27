@@ -1,0 +1,9 @@
+default:
+  id: Топоматик ID
+  robur: Топоматик Robur
+  cloud: Топоматик Сервер
+  cloud-saas: Топоматик Облако
+  cloud-onpremise: Топоматик Сервер (on-premise)
+  docs-uri: "https://docs.topomatic.ru"
+  topomatic-name: НПФ Топоматик
+  topomatic-360: Топоматик 360

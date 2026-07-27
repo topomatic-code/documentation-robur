@@ -1,0 +1,75 @@
+title: 'Приложение'
+blocks:
+  - type: 'card-layout-block'
+    title: 'Приложение'
+    description: 
+    animated: true
+    children:
+      - type: 'basic-card'
+        title: Общие разделы
+        links:
+          - url: 'methods_calculation_volumes.md'
+            text: 'Способы подсчета объемов'
+            theme: 'normal'
+            arrow: true
+          - url: 'list_standard_codes_and_variable_designs.md'
+            text: 'Перечень стандартных кодов и переменных конструкций поперечного профиля автомобильной дороги'
+            theme: 'normal'
+            arrow: true
+      - type: 'basic-card'
+        title: Библиотека семантических объектов
+        links:
+          - url: 'library_semantics/semantics.md'
+            text: 'Семантика. Объектный кодификатор'
+            theme: 'normal'
+            arrow: true
+          - url: 'library_semantics/create_new_objects.md'
+            text: 'Создание новых семантических объектов'
+            theme: 'normal'
+            arrow: true
+          - url: 'library_semantics/edit_objects.md'
+            text: 'Редактирование семантических свойств'
+            theme: 'normal'
+            arrow: true
+          - url: 'library_semantics/identifier_property.md'
+            text: 'И другие'
+            theme: 'normal'
+            arrow: true
+      - type: 'basic-card'
+        title: Библиотеки данных
+        links:
+          - url: 'libraries/libraries_info.md'
+            text: 'Общие сведения'
+            theme: 'normal'
+            arrow: true
+          - url: 'libraries/libraries_of_signs.md'
+            text: 'Работа с библиотеками условных знаков'
+            theme: 'normal'
+            arrow: true
+          - url: 'libraries/library_3d_models.md'
+            text: 'Работа с библиотекой 3D объектов'
+            theme: 'normal'
+            arrow: true
+          - url: 'libraries/set_of_signs.md'
+            text: 'И другие'
+            theme: 'normal'
+            arrow: true
+      - type: 'basic-card'
+        title: Архивные разделы
+        links:
+          - url: 'archive_sections/create_areas/source_data_for_designing_area_object.md'
+            text: 'Проектирование площадок (архив)'
+            theme: 'normal'
+            arrow: true
+          - url: 'archive_sections/general_information_layouts_drawings/general_information.md'
+            text: 'Работа с макетами чертежей (архив)'
+            theme: 'normal'
+            arrow: true
+          - url: 'archive_sections/format_template_drawing/general_information.md'
+            text: 'Приложение Б. Формат шаблона чертежа продольного профиля (архив)'
+            theme: 'normal'
+            arrow: true
+          - url: 'archive_sections/format_template_drawing_cross_profile.md'
+            text: 'И другие'
+            theme: 'normal'
+            arrow: true

@@ -1,0 +1,212 @@
+title: 'Справка — {{robur}}'
+href: ../index.yaml
+
+navigation:
+  logo:
+    url: ../../../index/ru/
+    urlTitle: 'Вернуться на главную'
+    dark:
+      icon: https://download.topomatic.ru/public/media/docviewer/centre_logo_dark.svg
+    light:
+      icon: https://download.topomatic.ru/public/media/docviewer/centre_logo.svg
+  header:
+    leftItems:
+      - type: 'dropdown'
+        text: 'Продукты'
+        items:
+          - text: '{{robur}}'
+            url: '../../../robur/ru/'
+            type: 'link'
+          - text: '{{cloud}}'
+            url: '../../../cloud/ru/'
+            type: 'link'
+          - text: '{{topomatic-360}}'
+            url: '../../../albatros/ru/'
+            type: 'link'
+      #- type: 'dropdown'
+      #  text: 'Сервисы'
+      #  items:
+      #    - text: '{{id}}'
+      #      url: ''
+      #      type: 'link'
+      #- text: 'Для разработчиков'
+      #  url: ''
+      #  type: 'link'
+    rightItems:
+      - type: 'link'
+        text: 'FAQ'
+        url: 'https://topomatic.ru/maintenance/faq/'
+        arrow: true
+      - type: 'link'
+        text: 'Топоматик Поддержка'
+        url: 'https://support.topomatic.ru/'
+        arrow: true
+      - type: controls
+
+items:
+  - name: Общие задачи
+    href: index.yaml
+    labeled: true
+    items:
+      - name: Коллективная работа
+        expanded: true
+        items:
+          - name: Описание раздела
+            href: collaborate/section_description.md
+          - name: Настройка папки проекта для коллективной работы
+            href: collaborate/setting_folders_project_for_collective_work.md
+          - name: Основные принципы коллективной работы
+            href: collaborate/basic_principles_collective_work.md
+          - name: Коллективная работа с подобъектом. Общие сведения
+            href: collaborate/general_information.md
+          - name: Последовательность работы
+            href: collaborate/sequence_work.md
+      - name: Картограммы
+        expanded: true
+        items:
+          - name: Создание площадных картограмм
+            href: cartogram/create_cartogram.md
+          - name: Настройка отображения картограммы
+            href: cartogram/setting_cartogram.md
+      - name: Оценка устойчивости откосов
+        items:
+          - name: Общие данные
+            href: slope_stability/general_information.md
+          - name: Задание исходных данных и выполнение расчета
+            href: slope_stability/enter_initial_data.md
+          - name: Включение\отключения данных расчета устойчивости на поперечниках
+            href: slope_stability/enable_disable_data_calculation.md
+          - name: Ввод произвольной кривой
+            href: slope_stability/enter_arbitrary_curve.md
+          - name: Настройки расчета
+            href: slope_stability/settings_calculation.md
+          - name: Выходные данные
+            href: slope_stability/output_information.md
+      - name: Землеотвод
+        items:
+          - name: Задание землеотвода табличным способом
+            href: land_allotment/assignment_table_ethod.md
+          - name: Задание границ проектного землеотвода по поперечникам
+            href: land_allotment/assignment_borders_at_cross_profiles.md
+          - name: Задание границ временного землеотвода по границам проектного
+            href: land_allotment/assignment_borders_temporary_land_acquisition.md
+          - name: Задание границ существующего землеотвода по поперечникам
+            href: land_allotment/assignment_borders_existing_land_acquisition.md
+          - name: Задание границ проектного, временного и существующего землеотвода графическим способом
+            href: land_allotment/assignment_borders_graphical_method.md
+          - name: Визуальное редактирование границ отвода земель
+            href: land_allotment/visual_editing_borders.md
+          - name: Редактирование границ отвода в окне развернутого плана
+            href: land_allotment/edit_borders_in_window_plan.md
+          - name: Настройка основных параметров расчета
+            href: land_allotment/configure_basic_parameters_calculation.md
+          - name: Настройка отображения линий отвода земель
+            href: land_allotment/setting_display_lines.md
+          - name: Формирование выходных ведомостей
+            href: land_allotment/formation_statements.md
+      - name: Ввод водопропускных труб (АД/ ЖД/ Трасса)
+        items:
+          - name: Ввод водопропускных труб
+            href: general_culverts/culverts.md
+          - name: Редактирование водопропускной трубы
+            href: general_culverts/edit_culverts.md
+          - name: Ведомость искусственных сооружений
+            href: general_culverts/statement_artificial_constructions.md
+      - name: Распределение земляных масс
+        items:
+          - name: Общие сведения
+            href: soil_works/general_information.md
+          - name: Термины и участники распределения
+            href: soil_works/terms_and_participants_apportionment.md
+          - name: Создание модели Распределения земляных масс
+            href: soil_works/creating_apportionment_model.md
+          - name: Интерфейс окна модели Распределения земляных масс
+            href: soil_works/interface_apportionment_model_window.md
+          - name: Предварительные настройки модели
+            items:
+              - name: Общие сведения
+                href: soil_works/pre_settings_model/general_information.md
+              - name: Предварительные настройки
+                href: soil_works/pre_settings_model/pre_settings.md
+              - name: Таблица Материалы
+                href: soil_works/pre_settings_model/table_materials.md
+          - name: Работа с участниками распределения
+            items:
+              - name: Добавление участников распределения
+                href: soil_works/working_apportionment_participants/adding_zone_soil_works.md
+              - name: Редактирование (свойства) участников распределения
+                href: soil_works/working_apportionment_participants/editing_zone_soil_works.md
+              - name: Добавление прочих элементов распределения
+                href: soil_works/working_apportionment_participants/adding_element_soil_works.md
+              - name: Связывание объектов
+                href: soil_works/working_apportionment_participants/connecting_objects.md
+          - name: Распределение
+            items:
+              - name: Ручное перемещение материалов распределения
+                href: soil_works/apportionment/manually_apportionment_materials.md
+              - name: Автоматическое распределение материалов
+                href: soil_works/apportionment/automatic_apportionment_materials.md
+              - name: Редактирование (свойства) перемещения
+                href: soil_works/apportionment/working_apportionment.md
+              - name: Обновление
+                href: soil_works/apportionment/update_apportionment.md
+          - name: Табличные данные распределения
+            href: soil_works/tabular_apportionment_data.md
+          - name: Библиотека коэффициентов относительного уплотнения
+            href: soil_works/library_coefficient.md
+          - name: Формирование ведомостей распределения
+            href: soil_works/formation_apportionment_statement.md
+      - name: Лазерное сканирование
+        items:
+          - name: Общие сведения
+            href: lidar/general_information.md
+          - name: Импорт данных лазерного сканирования
+            href: lidar/import_data.md
+          - name: Настройка отображения облака точек
+            href: lidar/setting_display_cloud.md
+          - name: Функционал работы с облаком точек лазерного сканирования
+            href: lidar/functionality_working_with_cloud.md
+      - name: Работа с системами координат
+        items:
+          - name: Работа с системами координат
+            href: coordinate_systems/coordinate_systems.md
+      - name: Загрузка интернет карт
+        items:
+          - name: Загрузка интернет карт
+            href: maps/load_internet_cards.md
+      - name: Загрузка кадастровых данных
+        items:
+          - name: Загрузка данных
+            href: cadaster/download_data.md
+          - name: Работа с кадастровыми данными
+            href: cadaster/work_with_cadastral_data.md
+      - name: Связанные документы
+        items:
+          - name: Общие сведения
+            href: linked_document/general_information.md
+          - name: Подготовка данных
+            href: linked_document/data_preparation.md
+          - name: Добавление связанного документа к модели
+            href: linked_document/add_linked_document_to_model.md
+          - name: Добавление связанного документа к объекту
+            href: linked_document/add_linked_document_to_object.md
+          - name: Добавление связанного документа к элементу ЦММ
+            href: linked_document/add_linked_document_to_cmm.md
+          - name: Удаление связанного документа
+            href: linked_document/deleting_linked_document.md
+          - name: Особенности работы и дополнительные функции
+            href: linked_document/features_work_and_additional_functions.md
+      - name: Работа с комментариями
+        items:
+          - name: Общие сведения
+            href: comments/general_information.md
+          - name: Добавление точечного комментария
+            href: comments/adding_point_comment.md
+          - name: Добавление области комментария
+            href: comments/adding_realm_comment.md
+          - name: Добавление комментария к файлу или проекту
+            href: comments/adding_comment_file.md
+          - name: Редактирование комментариев
+            href: comments/editing_comments.md
+          - name: Работа с окном Комментарии
+            href: comments/working_with_window_comments.md

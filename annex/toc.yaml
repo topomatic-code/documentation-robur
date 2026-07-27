@@ -1,0 +1,225 @@
+title: 'Справка — {{robur}}'
+href: ../index.yaml
+
+navigation:
+  logo:
+    url: ../../../index/ru/
+    urlTitle: 'Вернуться на главную'
+    dark:
+      icon: https://download.topomatic.ru/public/media/docviewer/centre_logo_dark.svg
+    light:
+      icon: https://download.topomatic.ru/public/media/docviewer/centre_logo.svg
+  header:
+    leftItems:
+      - type: 'dropdown'
+        text: 'Продукты'
+        items:
+          - text: '{{robur}}'
+            url: '../../../robur/ru/'
+            type: 'link'
+          - text: '{{cloud}}'
+            url: '../../../cloud/ru/'
+            type: 'link'
+          - text: '{{topomatic-360}}'
+            url: '../../../albatros/ru/'
+            type: 'link'
+      #- type: 'dropdown'
+      #  text: 'Сервисы'
+      #  items:
+      #    - text: '{{id}}'
+      #      url: ''
+      #      type: 'link'
+      #- text: 'Для разработчиков'
+      #  url: ''
+      #  type: 'link'
+    rightItems:
+      - type: 'link'
+        text: 'FAQ'
+        url: 'https://topomatic.ru/maintenance/faq/'
+        arrow: true
+      - type: 'link'
+        text: 'Топоматик Поддержка'
+        url: 'https://support.topomatic.ru/'
+        arrow: true
+      - type: controls
+
+items:
+  - name: Приложение
+    href: index.yaml
+    labeled: true
+    items:
+      - name: Способы подсчета объемов
+        href: methods_calculation_volumes.md
+      - name: Перечень стандартных кодов и переменных конструкций поперечного профиля автомобильной дороги
+        href: list_standard_codes_and_variable_designs.md
+      - name: Библиотека семантических объектов
+        expanded: true
+        items:
+          - name: Семантика. Объектный кодификатор
+            href: library_semantics/semantics.md
+          - name: Менеджер структуры семантики (Объектный кодификатор)
+            href: library_semantics/object_codifier.md
+          - name: Создание новой библиотеки
+            href: library_semantics/create_new_library.md
+          - name: Создание новых семантических объектов
+            href: library_semantics/create_new_objects.md
+          - name: Редактирование семантических свойств
+            href: library_semantics/edit_objects.md
+          - name: Назначение объектов семантики для элементов проекта
+            href: library_semantics/purpose_objects_semantics.md
+          - name: Идентификаторы свойств. Теги
+            href: library_semantics/identifier_property.md
+      - name: Библиотеки данных
+        expanded: true
+        items:
+          - name: Общие сведения
+            href: libraries/libraries_info.md
+          - name: Работа с библиотеками условных знаков
+            href: libraries/libraries_of_signs.md
+          - name: Наборы условных знаков
+            href: libraries/set_of_signs.md
+          - name: Работа с библиотекой 3D объектов (в разработке)
+            href: libraries/library_3d_models.md
+      - name: Архивные разделы
+        items:
+          - name: Проектирование площадок (архив)
+            items:
+              - name: Исходные данные для проектирования площадного объекта
+                href: archive_sections/create_areas/source_data_for_designing_area_object.md
+              - name: Основные настройки
+                href: archive_sections/create_areas/basic_settings.md
+              - name: Горизонтальная планировка
+                href: archive_sections/create_areas/horizontal_layout.md
+              - name: Определение высотного положения площадки
+                href: archive_sections/create_areas/definition_height_position_platforms.md
+              - name: Определение высотного положения площадки по балансу объемов земляных работ
+                href: archive_sections/create_areas/definition_height_position_platforms_by_balance_volumes.md
+              - name: Создание участков вдоль линии
+                href: archive_sections/create_areas/creating_plots_along_line.md
+              - name: Создание участков внутри контура
+                href: archive_sections/create_areas/creating_plots_inside_contour.md
+              - name: Создание откосов
+                href: archive_sections/create_areas/creating_slopes.md
+              - name: Создание зданий
+                href: archive_sections/create_areas/creating_buildings.md
+              - name: Создание бордюров
+                href: archive_sections/create_areas/creating_borders.md
+              - name: Редактирование элементов
+                href: archive_sections/create_areas/edit_elements.md
+              - name: Редактирование атрибутов элементов
+                href: archive_sections/create_areas/edit_elements_attributes.md
+              - name: Удаление элементов
+                href: archive_sections/create_areas/deleting_elements.md
+              - name: Перестроение элементов
+                href: archive_sections/create_areas/rearrangement_elements.md
+              - name: Разрыв элементов
+                href: archive_sections/create_areas/breaking_elements.md
+              - name: Редактирование элементов с помощью стандартного набора инструментов
+                href: archive_sections/create_areas/edit_elements_using_standard_kit_instruments.md
+              - name: Определение объемов основных работ
+                href: archive_sections/create_areas/determination_main_volumes_works.md
+          - name: Дорожная разметка (архив)
+            items:
+              - name: Создание дорожной разметки
+                href: archive_sections/road_marking/create_road_marking.md
+              - name: Редактирование линейной разметки через стандартное окно Свойства
+                href: archive_sections/road_marking/edit_linear_layout_via_standard_properties_window.md
+              - name: Создание и редактирование разметки табличным способом
+                href: archive_sections/road_marking/creating_and_editing_tabular_markup_method.md
+              - name: Автоматическое создание разметки по границам полос
+                href: archive_sections/road_marking/automatic_creating_markup_on_limits_bands.md
+              - name: Создание площадной разметки
+                href: archive_sections/road_marking/creation_area_markup.md
+              - name: Редактирование площадной разметки
+                href: archive_sections/road_marking/editing_area_markup.md
+              - name: Создание и редактирование точечной разметки
+                href: archive_sections/road_marking/create_and_edit_dotty_marking.md
+              - name: Разметка пешеходных переходов и велосипедных дорожек
+                href: archive_sections/road_marking/marking_pedestrian_crossings.md
+              - name: Дорожная разметка (Место остановки)
+                href: archive_sections/road_marking/marking_stopping_place.md
+              - name: Подпись дорожной разметки
+                href: archive_sections/road_marking/signature_road_markings.md
+              - name: Настройка подписи дорожной разметки
+                href: archive_sections/road_marking/setting_signature_road_marking.md
+              - name: Создание ведомости объемов по дорожной разметке
+                href: archive_sections/road_marking/creating_statement_volumes_at_road_markings.md
+          - name: Стандартные дорожные знаки (архив)
+            items:
+              - name: Вставка стандартных дорожных знаков через стандартную библиотеку
+                href: archive_sections/standard_road_signs/insert_standard_road_signs_using_standard_library.md
+              - name: Вставка дорожных знаков с помощью панелей ввода
+                href: archive_sections/standard_road_signs/insert_road_signs_using_panels_input.md
+              - name: Редактирование дорожных знаков
+                href: archive_sections/standard_road_signs/edit_road_signs.md
+              - name: Редактирование параметров дорожного знака через окно Свойства
+                href: archive_sections/standard_road_signs/edit_parameters_road_sign_via_properties_window.md
+              - name: Добавление дополнительных знаков в библиотеку
+                href: archive_sections/standard_road_signs/adding_additional_characters_to_library.md
+              - name: Создание выходных ведомостей
+                href: archive_sections/standard_road_signs/creation_output_statements.md
+          - name: Дорожные ограждения (архив)
+            items:
+              - name: Библиотека ограждений
+                href: archive_sections/road_fencing/library_fencing.md
+              - name: Ввод дорожных ограждений
+                href: archive_sections/road_fencing/enter_in_exploitation_roadbarriers.md
+              - name: Назначение дорожного ограждения из полилинии
+                href: archive_sections/road_fencing/create_road_fence_from_polyline.md
+              - name: Редактирование дорожных ограждений
+                href: archive_sections/road_fencing/edit_road_fence.md
+              - name: Автоматическая расстановка дорожных ограждений
+                href: archive_sections/road_fencing/automatic_placement_road_barriers.md
+              - name: Настройка параметров автоматического расчета дорожных ограждений
+                href: archive_sections/road_fencing/setting_parameters_automatic_calculation_road_fencing.md
+              - name: Округление участков барьерных ограждений
+                href: archive_sections/road_fencing/rounding_sections_barrier_fencing.md
+              - name: Расстановка сигнальных столбиков
+                href: archive_sections/road_fencing/accommodation_signal_pillars.md
+              - name: Подпись ограждений и сигнальных столбиков
+                href: archive_sections/road_fencing/signature_fencing.md
+              - name: Формирование ведомостей
+                href: archive_sections/road_fencing/formation_statements.md
+          - name: Работа с макетами чертежей (архив)
+            items:
+              - name: Общие сведения
+                href: archive_sections/general_information_layouts_drawings/general_information.md
+              - name: Основные термины
+                href: archive_sections/general_information_layouts_drawings/basic_terms.md
+              - name: Создание макета чертежа поперечного профиля
+                href: archive_sections/general_information_layouts_drawings/create_layout_drawing.md
+              - name: Основные действия с созданным макетом чертежа
+                href: archive_sections/general_information_layouts_drawings/basic_action.md
+              - name: Редактирование шаблона макета
+                items:
+                  - name: Общие сведения
+                    href: archive_sections/general_information_layouts_drawings/general_information_layouts_drawings_template/general_information.md
+                  - name: Добавление\ Редактирование данных
+                    href: archive_sections/general_information_layouts_drawings/general_information_layouts_drawings_template/adding_editing_data.md
+                  - name: Перечень стандартных тегов чертежа поперечного профиля
+                    href: archive_sections/general_information_layouts_drawings/general_information_layouts_drawings_template/list_standard_tags_drawing.md
+                  - name: Свойства тегов
+                    href: archive_sections/general_information_layouts_drawings/general_information_layouts_drawings_template/properties_tags.md
+              - name: Работа в режиме Редактирование макета
+                href: archive_sections/general_information_layouts_drawings/work_in_edit_mode_layout.md
+              - name: Создание чертежа поперечного профиля на основе макета
+                href: archive_sections/general_information_layouts_drawings/create_drawing_on_based_layout.md
+              - name: Работа с макетом чертежа продольного профиля
+                href: archive_sections/general_information_layouts_drawings/work_with_layout_drawing.md
+              - name: Теги шаблона чертежа продольного профиля
+                href: archive_sections/general_information_layouts_drawings/tags_pattern_drawing.md
+          - name: Приложение Б.Формат шаблона чертежа продольного профиля (архив)
+            items:
+              - name: Общие сведения
+                href: archive_sections/format_template_drawing/general_information.md
+              - name: Основные коды (Тэги) используемые в стандартных шаблонах чертежа продольного профиля Автодорожных подобъектов
+                href: archive_sections/format_template_drawing/basic_codes_roads_subobject.md
+              - name: Основные коды (Тэги) используемые в стандартных шаблонах чертежа продольного профиля Железнодорожных подобъектов
+                href: archive_sections/format_template_drawing/basic_codes_rail_subobject.md
+              - name: Общие Тэги чертежей для моделей подобъектов Железных дороги и Автомобильных дорог.
+                href: archive_sections/format_template_drawing/general_tags_drawing.md
+          - name: Приложение В.Формат шаблона чертежа поперечного профиля (архив)
+            href: archive_sections/format_template_drawing_cross_profile.md
+          - name: Приложение Г. Создание и редактирование шаблонов выходных ведомостей (архив)
+            href: archive_sections/creating_and-editing_templates.md
+    

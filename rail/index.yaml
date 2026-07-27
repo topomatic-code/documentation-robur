@@ -1,0 +1,87 @@
+title: 'Топоматик Robur - Железные дороги'
+blocks:
+  - type: 'card-layout-block'
+    title: 'Топоматик Robur - Железные дороги'
+    description:
+     <p>
+     В данном разделе рассматривается функционал по созданию и редактированию проектного продольного и поперечного профиля железной дороги. Описываются блоки дополнительных задач, также применимых при проектировании железных дорог (узлы и станции, выправка пути, распределение земляных масс и т.д.).
+     <p>
+     Вопросы связанные с подготовкой исходных данных, такие как <a href="ru/rb_survey/survey/basic_concepts.html">обработка геодезических</a> и <a href="ru/rb_survey/glg/creation_legend_ground.html">геологических данных</a>, <a href="ru/rb_survey/dtm/general_information.html">работа с ЦММ </a>, импорт данных из других программных приложений, а также функционал по работе с <a href="ru/rb_survey/alg/general_information.html">планом трассы и черными профилями</a> подробно рассматривались в предыдущих резделах.
+    animated: true
+    children:
+      - type: 'basic-card'
+        title: Общие сведения
+        links:
+          - url: 'general_information/create_subobject.md'
+            text: 'Создание модели Железная дорога'
+            theme: 'normal'
+            arrow: true
+          - url: 'general_information/setting_subobject.md'
+            text: 'Настройки подобъекта Железная дорога'
+            theme: 'normal'
+            arrow: true
+          - url: 'general_information/edit_plan.md'
+            text: 'Редактирование плана'
+            theme: 'normal'
+            arrow: true
+          - url: 'general_information/create_subobject_on_based_track.md'
+            text: 'И другие'
+            theme: 'normal'
+            arrow: true
+      - type: 'basic-card'
+        title: Проектирование продольного профиля
+        links:
+          - url: 'rail_profile/visual_projecting.md'
+            text: 'Визуальное проектирование продольного профиля'
+            theme: 'normal'
+            arrow: true
+          - url: 'rail_profile/creation_at_calculated_rail_head.md'
+            text: 'Создание профиля по РГР'
+            theme: 'normal'
+            arrow: true
+          - url: 'rail_profile/setup_profile.md'
+            text: 'Настройка продольного профиля'
+            theme: 'normal'
+            arrow: true
+          - url: 'rail_profile/context_menu.md'
+            text: 'И другие'
+            theme: 'normal'
+            arrow: true
+      - type: 'basic-card'
+        title: Проектирование поперечных профилей
+        links:
+          - url: 'rail_crossection/palette_elements.md'
+            text: 'Палитра элементов конструкций'
+            theme: 'normal'
+            arrow: true
+          - url: 'rail_crossection/master_formulas.md'
+            text: 'Мастер формул'
+            theme: 'normal'
+            arrow: true
+          - url: 'rail_crossection/individual_elements.md'
+            text: 'Индивидуальные элементы'
+            theme: 'normal'
+            arrow: true
+          - url: 'rail_crossection/drawing_project_solutions.md'
+            text: 'И другие'
+            theme: 'normal'
+            arrow: true
+      - type: 'basic-card'
+        title: Задачи
+        links:
+          - url: 'rail_tasks/nodes_and_stations/insert_turnouts.md'
+            text: 'Вставка стрелочных переводов'
+            theme: 'normal'
+            arrow: true
+          - url: 'rail_tasks/straightening_way/create_subobject.md'
+            text: 'Создание подобъекта рихтовок'
+            theme: 'normal'
+            arrow: true
+          - url: 'rail_tasks/intertrack_space/create_intertrack_space.md'
+            text: 'Создание междупутий'
+            theme: 'normal'
+            arrow: true
+          - url: 'rail_tasks/basic_characteristic/general_information.md'
+            text: 'И другие'
+            theme: 'normal'
+            arrow: true

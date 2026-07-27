@@ -1,0 +1,64 @@
+title: 'Чертежи и ведомости'
+blocks:
+  - type: 'card-layout-block'
+    title: 'Чертежи и ведомости'
+    description: В данной главе описаны основные способы создания чертежей ситуационного плана, а также продольных и поперечных профилей, как существующих, так и проектных. Показаны общие принципы формирования выходных ведомостей. 
+    animated: true
+    children:
+      - type: 'basic-card'
+        title: Выходная документация
+        links:
+          - url: 'general_provisions.md'
+            text: 'Общие положения'
+            theme: 'normal'
+            arrow: true
+          - url: 'create_drawings.md'
+            text: 'Создание и открытие чертежей'
+            theme: 'normal'
+            arrow: true
+          - url: 'create_statements.md'
+            text: 'Создание ведомостей'
+            theme: 'normal'
+            arrow: true
+          - url: 'create_drawings_plan.md'
+            text: 'И другие'
+            theme: 'normal'
+            arrow: true
+      - type: 'basic-card'
+        title: Редактирование динамических выходных ведомостей
+        links:
+          - url: 'dynamic_vedomosti/edit_maket.md'
+            text: 'Редактирование макета ведомости'
+            theme: 'normal'
+            arrow: true
+          - url: 'dynamic_vedomosti/edit_pattern.md'
+            text: 'Редактирование шаблона ведомости'
+            theme: 'normal'
+            arrow: true
+          - url: 'dynamic_vedomosti/review_edit.md'
+            text: 'Редактор шаблона'
+            theme: 'normal'
+            arrow: true
+          - url: 'dynamic_vedomosti/tools_edit.md'
+            text: 'И другие'
+            theme: 'normal'
+            arrow: true
+      - type: 'basic-card'
+        title: Редактирование динамических выходных чертежей
+        links:
+          - url: 'edit_dynamic_drawing/basic_terms.md'
+            text: 'Основные термины'
+            theme: 'normal'
+            arrow: true
+          - url: 'edit_dynamic_drawing/working_in_layout/edit_layout.md'
+            text: 'Режим Редактирование макета'
+            theme: 'normal'
+            arrow: true
+          - url: 'edit_dynamic_drawing/working_in_layout/edit_pattern/template_pattern.md'
+            text: 'Состав шаблона динамического чертежа'
+            theme: 'normal'
+            arrow: true
+          - url: 'edit_dynamic_drawing/working_in_layout/edit_pattern/example_edit_pattern.md'
+            text: 'И другие'
+            theme: 'normal'
+            arrow: true

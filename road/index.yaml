@@ -1,0 +1,87 @@
+title: 'Топоматик Robur - Автомобильные дороги'
+blocks:
+  - type: 'card-layout-block'
+    title: 'Топоматик Robur - Автомобильные дороги'
+    description:  >-
+     В данном томе рассматривается функционал по созданию и редактированию проектного продольного и поперечного профиля автомобильной дороги. Описываются блоки дополнительных задач, также применимых при проектировании автомобильных дорог (создание пересечений, дорожное обустройство, оценка проектного решения и т.д.).
+     <p>
+     Вопросы, связанные с подготовкой исходных данных, такие как <a href="ru/rb_survey/survey/basic_concepts.html">обработка геодезических</a> и <a href="ru/rb_survey/glg/creation_legend_ground.html">геологических данных</a>, <a href="ru/rb_survey/dtm/general_information.html">работа с ЦММ</a>, импорт данных из других программных приложений, а также функционал по работе с <a href="ru/rb_survey/alg/general_information.html">планом трассы и черными профилями</a> подробно рассматривались в предыдущих томах.
+     </p>
+    animated: true
+    children:
+      - type: 'basic-card'
+        title: Общие сведения
+        links:
+          - url: 'general_information/create_subobject_road.md'
+            text: 'Создание подобъекта Автомобильная дорога'
+            theme: 'normal'
+            arrow: true
+          - url: 'general_information/create_subobject_on_based_track.md'
+            text: 'Создание подобъекта Автомобильная дорога на основе изыскательской трассы'
+            theme: 'normal'
+            arrow: true
+          - url: 'general_information/setting_subobject.md'
+            text: 'Настройки подобъекта Автомобильная дорога'
+            theme: 'normal'
+            arrow: true
+          - url: 'general_information/draw_project_solutions_on_plan.md'
+            text: 'И другие'
+            theme: 'normal'
+            arrow: true
+      - type: 'basic-card'
+        title: Проектирование продольного профиля
+        links:
+          - url: 'road_profile/general_provisions.md'
+            text: 'Общие положения'
+            theme: 'normal'
+            arrow: true
+          - url: 'road_profile/visual_design_longitudinal_profile.md'
+            text: 'Визуальное проектирование продольного профиля'
+            theme: 'normal'
+            arrow: true
+          - url: 'road_profile/context_menu.md'
+            text: 'Контекстное меню редактора продольного профиля'
+            theme: 'normal'
+            arrow: true
+          - url: 'road_profile/setting_control_profile.md'
+            text: 'И другие'
+            theme: 'normal'
+            arrow: true
+      - type: 'basic-card'
+        title: Проектирование поперечных профилей
+        links:
+          - url: 'road_crossection/total/general_information.md'
+            text: 'Конструирование типовых поперечных профилей'
+            theme: 'normal'
+            arrow: true
+          - url: 'road_crossection/calculation_volumes_major_works/general_principle.md'
+            text: 'Расчет объемов на примере типовых поперечников'
+            theme: 'normal'
+            arrow: true
+          - url: 'road_crossection/creating_and_editing_constructions.md'
+            text: 'Создание и редактирование конструкций'
+            theme: 'normal'
+            arrow: true
+          - url: 'road_crossection/creation_individual_elements/general_provisions.md'
+            text: 'И другие'
+            theme: 'normal'
+            arrow: true
+      - type: 'basic-card'
+        title: Задачи
+        links:
+          - url: 'road_tasks/alignment_coating/basic_concepts_and_definitions.md'
+            text: 'Выравнивание покрытия'
+            theme: 'normal'
+            arrow: true
+          - url: 'road_tasks/design_single_level_intersections_and_junctionss/general_information.md'
+            text: 'Проектирование одноуровневых пересечений и примыканий'
+            theme: 'normal'
+            arrow: true
+          - url: 'road_tasks/organizing_road_traffic/general_provisions.md'
+            text: 'Технические средства организации дорожного движения'
+            theme: 'normal'
+            arrow: true
+          - url: 'road_tasks/bus_shelter/elements_stations.md'
+            text: 'И другие'
+            theme: 'normal'
+            arrow: true

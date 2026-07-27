@@ -1,0 +1,88 @@
+title: 'Справка — {{robur}}'
+href: ../index.yaml
+
+navigation:
+  logo:
+    url: ../../../index/ru/
+    urlTitle: 'Вернуться на главную'
+    dark:
+      icon: https://download.topomatic.ru/public/media/docviewer/centre_logo_dark.svg
+    light:
+      icon: https://download.topomatic.ru/public/media/docviewer/centre_logo.svg
+  header:
+    leftItems:
+      - type: 'dropdown'
+        text: 'Продукты'
+        items:
+          - text: '{{robur}}'
+            url: '../../../robur/ru/'
+            type: 'link'
+          - text: '{{cloud}}'
+            url: '../../../cloud/ru/'
+            type: 'link'
+          - text: '{{topomatic-360}}'
+            url: '../../../albatros/ru/'
+            type: 'link'
+      #- type: 'dropdown'
+      #  text: 'Сервисы'
+      #  items:
+      #    - text: '{{id}}'
+      #      url: ''
+      #      type: 'link'
+      #- text: 'Для разработчиков'
+      #  url: ''
+      #  type: 'link'
+    rightItems:
+      - type: 'link'
+        text: 'FAQ'
+        url: 'https://topomatic.ru/maintenance/faq/'
+        arrow: true
+      - type: 'link'
+        text: 'Топоматик Поддержка'
+        url: 'https://support.topomatic.ru/'
+        arrow: true
+      - type: controls
+
+items:
+  - name: Топоматик Robur - Искусственные сооружения
+    href: index.yaml
+    labeled: true
+    items:
+      - name: Создание модели Водопропускная труба
+        href: create_culvert_model.md
+      - name: Настройка модели водопропускная труба
+        href: configuration_model.md
+      - name: Способы ввода трубы
+        href: input_method.md
+      - name: Выбор и настройка конструкции
+        href: choose_customization_constructions.md
+      - name: Окно Анализ трубы
+        href: culvert_analysis_window.md
+      - name: Настройка управляющих элементов в рабочем окне Труба
+        href: customization_window_culvert.md
+      - name: Юстировать положение трубы
+        href: adjust.md
+      - name: Редактирование положения трубы в окне План
+        href: edit_plan_culvert.md
+      - name: Алгоритм работы при изменении положения трубы в плане
+        href: change_position_culvert.md
+      - name: Обновить сечения
+        href: refresh_sections_culvert.md
+      - name: Положение трубы по умолчанию
+        href: default_position.md
+      - name: Изменение угла укреплений
+        href: angle_culvert.md
+      - name: Раскладка
+        href: layout.md
+      - name: Настройка расчета строительного подъема
+        href: customization_construction_lifting.md
+      - name: Реконструкция
+        href: reconstruction.md
+      - name: Библиотека конструкций
+        href: libraries_construction.md
+      - name: Создание чертежей
+        href: creation_drawings.md
+      - name: Создание ведомостей
+        href: creation_statements.md
+      - name: Приложение А. Гидравлические расчеты
+        href: hydraulic_calculation.md

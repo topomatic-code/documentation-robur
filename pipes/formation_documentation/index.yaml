@@ -1,0 +1,12 @@
+title: Формирование выходной документации
+description: >-
+meta:
+  title: Формирование выходной документации
+  description: >-
+links:
+- title: Создание чертежей
+  description: ''
+  href: creation_output_drawings_new.md
+- title: Создание ведомостей
+  description: ''
+  href: creation_output_statements_new.md

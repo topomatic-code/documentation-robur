@@ -1,0 +1,115 @@
+title: 'Справка — {{robur}}'
+href: ../index.yaml
+
+navigation:
+  logo:
+    url: ../../../index/ru/
+    urlTitle: 'Вернуться на главную'
+    dark:
+      icon: https://download.topomatic.ru/public/media/docviewer/centre_logo_dark.svg
+    light:
+      icon: https://download.topomatic.ru/public/media/docviewer/centre_logo.svg
+  header:
+    leftItems:
+      - type: 'dropdown'
+        text: 'Продукты'
+        items:
+          - text: '{{robur}}'
+            url: '../../../robur/ru/'
+            type: 'link'
+          - text: '{{cloud}}'
+            url: '../../../cloud/ru/'
+            type: 'link'
+          - text: '{{topomatic-360}}'
+            url: '../../../albatros/ru/'
+            type: 'link'
+      #- type: 'dropdown'
+      #  text: 'Сервисы'
+      #  items:
+      #    - text: '{{id}}'
+      #      url: ''
+      #      type: 'link'
+      #- text: 'Для разработчиков'
+      #  url: ''
+      #  type: 'link'
+    rightItems:
+      - type: 'link'
+        text: 'FAQ'
+        url: 'https://topomatic.ru/maintenance/faq/'
+        arrow: true
+      - type: 'link'
+        text: 'Топоматик Поддержка'
+        url: 'https://support.topomatic.ru/'
+        arrow: true
+      - type: controls
+
+items:
+  - name: Установка. Запуск и настройка
+    href: index.yaml
+    labeled: true
+    items:
+      - name: Установка
+        expanded: true
+        items:
+          - name: Системные требования
+            href: install/system_requirements.md
+          - name: Защита
+            href: install/general_information_on_system.md
+          - name: Перед установкой
+            href: install/before_starting_installation.md
+          - name: Установка
+            href: install/installation
+          - name: Hasp
+            href: install/key_update.md
+          - name: О подписке
+            href: install/basic_information_about_subscription.md
+      - name: Запуск и настройка
+        expanded: true
+        items:
+          - name: Запуск программы
+            expanded: true
+            items:
+              - name: Запуск программы
+                href: startup/startup_program/startup_program.md
+              - name: Интерфейс программы
+                href: startup/startup_program/interface_program.md
+              - name: Рабочие окна
+                href: startup/startup_program/setting_working_windows.md
+              - name: Работа с окном 3D вида
+                href: startup/startup_program/working_with_window.md
+          - name: Структура проекта
+            items:
+              - name: Структура проекта
+                href: startup/structure_project/structure_project.md
+              - name: Работа с моделями
+                href: startup/structure_project/work_with_models.md
+              - name: Работа с таблицами
+                href: startup/structure_project/work_with_tables.md
+              - name: Управление структурой проекта
+                href: startup/structure_project/structure_project_management.md
+          - name: Работа со слоями модели
+            items:
+              - name: Менеджер слоев
+                href: startup/working_with_layers_model/manager_layers.md
+              - name: Фильтр слоёв
+                href: startup/working_with_layers_model/filter_layers.md
+              - name: Диспетчер конфигураций слоев
+                href: startup/working_with_layers_model/dispatcher_layers.md
+              - name: Дополнительные инструменты
+                href: startup/working_with_layers_model/tool.md
+          - name: Общие настройки
+            items:
+              - name: Командная строка
+                href: startup/general_setting/command_line.md
+              - name: Быстрый выбор
+                href: startup/general_setting/quick_selection.md
+              - name: Режимы рисования
+                href: startup/general_setting/regime_drawing.md
+              - name: Среда
+                href: startup/general_setting/setting.md
+              - name: Хранилища проектов
+                href: startup/general_setting/storage.md
+              - name: Другие
+                href: startup/general_setting/design.md
+              - name: Адаптация
+                href: startup/general_setting/workspace.md

@@ -1,0 +1,262 @@
+title: 'Справка — {{robur}}'
+href: ../index.yaml
+
+navigation:
+  logo:
+    url: ../../../index/ru/
+    urlTitle: 'Вернуться на главную'
+    dark:
+      icon: https://download.topomatic.ru/public/media/docviewer/centre_logo_dark.svg
+    light:
+      icon: https://download.topomatic.ru/public/media/docviewer/centre_logo.svg
+  header:
+    leftItems:
+      - type: 'dropdown'
+        text: 'Продукты'
+        items:
+          - text: '{{robur}}'
+            url: '../../../robur/ru/'
+            type: 'link'
+          - text: '{{cloud}}'
+            url: '../../../cloud/ru/'
+            type: 'link'
+          - text: '{{topomatic-360}}'
+            url: '../../../albatros/ru/'
+            type: 'link'
+      #- type: 'dropdown'
+      #  text: 'Сервисы'
+      #  items:
+      #    - text: '{{id}}'
+      #      url: ''
+      #      type: 'link'
+      #- text: 'Для разработчиков'
+      #  url: ''
+      #  type: 'link'
+    rightItems:
+      - type: 'link'
+        text: 'FAQ'
+        url: 'https://topomatic.ru/maintenance/faq/'
+        arrow: true
+      - type: 'link'
+        text: 'Топоматик Поддержка'
+        url: 'https://support.topomatic.ru/'
+        arrow: true
+      - type: controls
+
+items:
+  - name: Топоматик Robur - Железные дороги
+    href: index.yaml
+    labeled: true
+    items:
+      - name: Общие сведения
+        expanded: true
+        items:
+          - name: Создание модели Железная дорога
+            href: general_information/create_subobject.md
+          - name: Создание подобъекта Железная дорога на основе изыскательской трассы
+            href: general_information/create_subobject_on_based_track.md
+          - name: Редактирование плана
+            href: general_information/edit_plan.md
+          - name: Настройки подобъекта Железная дорога
+            href: general_information/setting_subobject.md
+      - name: Проектирование продольного профиля
+        expanded: true
+        items:
+          - name: Проектирование продольного профиля
+            href: rail_profile/projecting_longitudinal_profile.md
+          - name: Визуальное проектирование продольного профиля
+            href: rail_profile/visual_projecting.md
+          - name: Контекстное меню редактора продольного профиля
+            href: rail_profile/context_menu.md
+          - name: Сослаться на профиль
+            href: rail_profile/reference_profile.md
+          - name: Очистка профиля
+            href: rail_profile/cleaning_profile.md
+          - name: Проектирование профиля по руководящей отметке
+            href: rail_profile/projecting_via_guidelines_point.md
+          - name: Проектировать профиль по поперечному уклону
+            href: rail_profile/projecting_at_cross_slope.md
+          - name: Проектирование профиля параллельно земле
+            href: rail_profile/projecting_parallel_ground.md
+          - name: Создание профиля по РГР (расчетной головке рельса)
+            href: rail_profile/creation_at_calculated_rail_head.md
+          - name: Упрощенный профиль
+            href: rail_profile/simplified_profile.md
+          - name: Изменение направления проектного профиля
+            href: rail_profile/change_direction.md
+          - name: Поднятие, опускание и смещение профиля
+            href: rail_profile/raising_profile.md
+          - name: Сгладить участок профиля
+            href: rail_profile/smooth_plot.md
+          - name: Информация о профиле
+            href: rail_profile/information.md
+          - name: Настройка контроля профиля
+            href: rail_profile/setup_control.md
+          - name: Фиксированные точки
+            href: rail_profile/fixed_dots.md
+          - name: Настройка продольного профиля
+            href: rail_profile/setup_profile.md
+          - name: Работа с уклоноуказателями
+            href: rail_profile/working_with_slope.md
+      - name: Проектирование поперечных профилей
+        items:
+          - name: Общие сведения
+            href: rail_crossection/general_information.md
+          - name: Палитра элементов конструкций
+            href: rail_crossection/palette_elements.md
+          - name: Основная площадка
+            href: rail_crossection/main_platform.md
+          - name: Откосы
+            href: rail_crossection/slopes.md
+          - name: Кюветы
+            href: rail_crossection/canald.md
+          - name: Канавы
+            href: rail_crossection/ditch.md
+          - name: Лотки
+            href: rail_crossection/flume.md
+          - name: Резерв
+            href: rail_crossection/reserve.md
+          - name: Бермы
+            href: rail_crossection/berm.md
+          - name: Уступы. Уступ вверх, Уступ вниз
+            href: rail_crossection/ledges.md
+          - name: Геотекстиль
+            href: rail_crossection/geotextile.md
+          - name: Срезка слоя
+            href: rail_crossection/slice_layer.md
+          - name: Нижняя насыпь
+            href: rail_crossection/bottom_mound.md
+          - name: Погруженная часть насыпи
+            href: rail_crossection/buried_part.md
+          - name: Балласт
+            href: rail_crossection/ballast.md
+          - name: Планировка
+            href: rail_crossection/planning.md
+          - name: Укрепления
+            href: rail_crossection/strengthening.md
+          - name: Дренаж
+            href: rail_crossection/drainage.md
+          - name: Замена
+            href: rail_crossection/replacement.md
+          - name: Индивидуальные элементы
+            href: rail_crossection/individual_elements.md
+          - name: Использование переменных при создании индивидуальной конструкции поперечного профиля
+            href: rail_crossection/general_notion.md
+          - name: Пример использования Дополнительных переменных в конструкции поперечника
+            href: rail_crossection/example_usage.md
+          - name: Мастер формул
+            href: rail_crossection/master_formulas.md
+          - name: Уширения и возвышения
+            href: rail_crossection/widening_and_elevation.md
+          - name: Правила
+            href: rail_crossection/rules.md
+          - name: Водоотводы
+            href: rail_crossection/drains.md
+          - name: Настройки отображения водоотводов
+            href: rail_crossection/settings_display.md
+          - name: Создание чертежа профиля водоотвода
+            href: rail_crossection/creation_drawing.md
+          - name: Раскладка лотков
+            href: rail_crossection/arrangement_flume.md
+          - name: Проектирование аналогичных поперечников
+            href: rail_crossection/projection_analogously.md
+          - name: Проектирование аналогичных поперечников аналогично заданному пикету
+            href: rail_crossection/projection_analogously_given_picket.md
+          - name: Сохранение и загрузка конструкции поперечного профиля
+            href: rail_crossection/save_and_load.md
+          - name: Импортировать конструкцию со вставкой
+            href: rail_crossection/import.md
+          - name: Наименования типовых поперечных профилей
+            href: rail_crossection/names.md
+          - name: Отрисовка проектного решения на плане
+            href: rail_crossection/drawing_project_solutions.md
+      - name: Задачи
+        items:
+          - name: Динамическое трассирование
+            href: rail_tasks/dynamic_routing.md
+          - name: Узлы и станции
+            items:
+              - name: Вставка стрелочных переводов
+                href: rail_tasks/nodes_and_stations/insert_turnouts.md
+              - name: Вставка СП по точкам
+                href: rail_tasks/nodes_and_stations/insert_by_dots.md
+              - name: Редактирование стрелочного перевода
+                href: rail_tasks/nodes_and_stations/edit_turnouts.md
+              - name: Редактирование стрелочного перевода через контекстное меню
+                href: rail_tasks/nodes_and_stations/edit_via_context_menu.md
+              - name: Библиотека стрелочных переводов
+                href: rail_tasks/nodes_and_stations/library_turnouts.md
+              - name: Настройка отображения стрелочных переводов
+                href: rail_tasks/nodes_and_stations/adjustment_turnouts.md
+              - name: Проектирование съездов
+                href: rail_tasks/nodes_and_stations/designing_congresses.md
+              - name: Отрисовка бокового пути
+                href: rail_tasks/nodes_and_stations/drawing_side_paths.md
+              - name: Редактирование горловины станции
+                href: rail_tasks/nodes_and_stations/edit_station.md
+              - name: Измерение длины по подобъекту
+                href: rail_tasks/nodes_and_stations/measurement_length.md
+              - name: Создание ведомостей
+                href: rail_tasks/nodes_and_stations/create_statements.md
+              - name: Расстановка элементов путевого развития (сигналов, изостыков и упоров)
+                href: rail_tasks/nodes_and_stations/placement_elements.md
+          - name: Выправка пути
+            items:
+              - name: Основные этапы и понятия
+                href: rail_tasks/straightening_way/selection_axis.md
+              - name: Создание подобъекта рихтовок
+                href: rail_tasks/straightening_way/create_subobject.md
+              - name: Создание таблицы существующего пути
+                href: rail_tasks/straightening_way/create_table.md
+              - name: Редактирование подобъекта рихтовок в окне План
+                href: rail_tasks/straightening_way/edit_subobject.md
+              - name: Подбор пути с помощью графика кривизны
+                href: rail_tasks/straightening_way/selection_path.md
+              - name: Настройка отображения данных в сетке окна График кривизны
+                href: rail_tasks/straightening_way/graph_curvature.md
+              - name: Настройки
+                href: rail_tasks/straightening_way/settings.md
+          - name: Междупутья
+            items:
+              - name: Общие сведения
+                href: rail_tasks/intertrack_space/general_information.md
+              - name: Создание междупутий
+                href: rail_tasks/intertrack_space/create_intertrack_space.md
+              - name: Настройка отображения междупутных расстояний
+                href: rail_tasks/intertrack_space/settings_display.md
+              - name: Формирование ведомости междупутных расстояний
+                href: rail_tasks/intertrack_space/formation_statements.md
+          - name: Проектирование вторых путей
+            items:
+              - name: Общие сведения
+                href: rail_tasks/basic_characteristic/general_information.md
+              - name: Основные понятия и определения
+                href: rail_tasks/basic_characteristic/basic_concepts.md
+              - name: Исходные данные для проектирования вторых путей
+                href: rail_tasks/basic_characteristic/source_data.md
+              - name: Основные этапы
+                href: rail_tasks/basic_characteristic/basic_stages.md
+          - name: Верхнее строение пути
+            href: rail_tasks/permanent_way.md
+          - name: Эпюра шпал
+            href: rail_tasks/sleeper_density.md
+          - name: Бесстыковой путь
+            href: rail_tasks/continuous_welded_rail.md
+          - name: Контактная сеть
+            items:
+              - name: Расстановка опор контактной сети
+                href: rail_tasks/contact_network/arrangement_contact_network.md
+              - name: Редактирование опор КС
+                href: rail_tasks/contact_network/edit_contact_network.md
+              - name: Нумеровать опоры КС
+                href: rail_tasks/contact_network/numbering_contact_network.md
+              - name: Выходные данные
+                href: rail_tasks/contact_network/output_information.md
+          - name: Прочие задачи
+            items:
+              - name: Создание оси пути по головке рельса
+                href: rail_tasks/other_tasks/creation_axis.md
+              - name: Автоматическая отрисовка таблицы по Форме 3
+                href: rail_tasks/other_tasks/automatic_spreadsheet.md
+              - name: Добавление дополнительных данных в таблицу
+                href: rail_tasks/other_tasks/adding_additional_data_1.md

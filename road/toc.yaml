@@ -1,0 +1,625 @@
+title: 'Справка — {{robur}}'
+href: ../index.yaml
+
+navigation:
+  logo:
+    url: ../../../index/ru/
+    urlTitle: 'Вернуться на главную'
+    dark:
+      icon: https://download.topomatic.ru/public/media/docviewer/centre_logo_dark.svg
+    light:
+      icon: https://download.topomatic.ru/public/media/docviewer/centre_logo.svg
+  header:
+    leftItems:
+      - type: 'dropdown'
+        text: 'Продукты'
+        items:
+          - text: '{{robur}}'
+            url: '../../../robur/ru/'
+            type: 'link'
+          - text: '{{cloud}}'
+            url: '../../../cloud/ru/'
+            type: 'link'
+          - text: '{{topomatic-360}}'
+            url: '../../../albatros/ru/'
+            type: 'link'
+      #- type: 'dropdown'
+      #  text: 'Сервисы'
+      #  items:
+      #    - text: '{{id}}'
+      #      url: ''
+      #      type: 'link'
+      #- text: 'Для разработчиков'
+      #  url: ''
+      #  type: 'link'
+    rightItems:
+      - type: 'link'
+        text: 'FAQ'
+        url: 'https://topomatic.ru/maintenance/faq/'
+        arrow: true
+      - type: 'link'
+        text: 'Топоматик Поддержка'
+        url: 'https://support.topomatic.ru/'
+        arrow: true
+      - type: controls
+
+items:
+  - name: Топоматик Robur - Автомобильные дороги
+    href: index.yaml
+    labeled: true
+  - name: Общие сведения
+    expanded: true
+    items:
+      - name: Создание подобъекта Автомобильная дорога
+        href: general_information/create_subobject_road.md
+      - name: Создание подобъекта Автомобильная дорога на основе изыскательской трассы
+        href: general_information/create_subobject_on_based_track.md
+      - name: Редактирование плана
+        href: general_information/editing_plan.md
+      - name: Настройки подобъекта Автомобильная дорога
+        href: general_information/setting_subobject.md
+      - name: Отрисовка проектного решения на плане
+        href: general_information/draw_project_solutions_on_plan.md
+  - name: Проектирование продольного профиля
+    expanded: true
+    items:
+      - name: Общие положения
+        href: road_profile/general_provisions.md
+      - name: Визуальное проектирование продольного профиля
+        href: road_profile/visual_design_longitudinal_profile.md
+      - name: Контекстное меню редактора продольного профиля
+        href: road_profile/context_menu.md
+      - name: Очистка профиля
+        href: road_profile/cleaning_profile.md
+      - name: Удаление вершин профиля
+        href: road_profile/deletion_vertices_profile.md
+      - name: Проектировать профиль по руководящей отметке
+        href: road_profile/projecting_at_leadership_blips.md
+      - name: Проектировать профиль по поперечному уклону
+        href: road_profile/projecting_transverse_slope.md
+      - name: Проектировать профиль параллельно земле
+        href: road_profile/projecting_parallel_ground.md
+      - name: Проектировать профиль по поперечникам
+        href: road_profile/projecting_at_widths.md
+      - name: Создание профиля по точке на поперечнике
+        href: road_profile/create_dot_on_widths.md
+      - name: Проектировать лоток
+        href: road_profile/projecting_tray.md
+      - name: Упрощенный профиль
+        href: road_profile/simplified_profile.md
+      - name: Изменение направления проектного профиля
+        href: road_profile/change_direction.md
+      - name: Поднятие, опускание и смещение профиля
+        href: road_profile/raising_lowering_displacement.md
+      - name: Сгладить участок профиля
+        href: road_profile/smooth_plot.md
+      - name: Преобразовать профиль в сплайн
+        href: road_profile/convert_to_spline.md
+      - name: Сослаться на профиль
+        href: road_profile/refer_on_profile.md
+      - name: Информация о профиле
+        href: road_profile/information_about_profile.md
+      - name: Видимость на профиле
+        href: road_profile/visibility_on_profile.md
+      - name: Настройка контроля профиля
+        href: road_profile/setting_control_profile.md
+      - name: Фиксированные точки
+        href: road_profile/fixed_dots.md
+      - name: Поэлементное построение профиля
+        items:
+          - name: Общие сведения
+            href: road_profile/element_by_element_construction_profile/general_information.md
+          - name: Ввод элементов
+            href: road_profile/element_by_element_construction_profile/enter_elements.md
+          - name: Редактирование элементов
+            href: road_profile/element_by_element_construction_profile/edit_elements.md
+          - name: Обрезать элемент
+            href: road_profile/element_by_element_construction_profile/truncate_elements.md
+          - name: Переместить по касательной
+            href: road_profile/element_by_element_construction_profile/move_on_tangent.md
+          - name: Сопрячь элементы
+            href: road_profile/element_by_element_construction_profile/mating_elements.md
+          - name: Информация об элементе
+            href: road_profile/element_by_element_construction_profile/information_about_element.md
+          - name: Вставить элементы в профиль
+            href: road_profile/element_by_element_construction_profile/insert_elements_into_profile.md
+      - name: Создание смещений
+        href: road_profile/creating_offsets.md
+      - name: Отрисовать таблицу смещений
+        href: road_profile/draw_table_offsets.md
+      - name: Вертикальная планировка
+        href: road_profile/vertical_layout.md
+      - name: Проецировать колодцы
+        href: road_profile/project_wells.md
+  - name: Проектирование поперечных профилей
+    items:
+      - name: Конструирование типовых поперечных профилей
+        items:
+          - name: Общие сведения
+            href: road_crossection/total/general_information.md
+          - name: Проектирование поперечников с использованием шаблонов конструкций
+            href: road_crossection/total/designing_cross_profiles_using_templates.md
+          - name: Ширины основных полос
+            href: road_crossection/total/width_main_stripes.md
+          - name: Задание ширины проезжей части по существующей
+            href: road_crossection/total/assign_width_roadway_at_existing.md
+          - name: Задание ширины проезжей части по смещениям
+            href: road_crossection/total/assign_width_roadway_at_offsets.md
+          - name: Дополнительные полосы
+            href: road_crossection/total/additional_lanes.md
+          - name: Ширина обочины
+            href: road_crossection/total/width_roadside.md
+          - name: Ширина разделительной полосы
+            href: road_crossection/total/width_dividing_line.md
+          - name: Уклоны основных полос
+            href: road_crossection/total/slope_major_baseband.md
+          - name: Уклон обочины
+            href: road_crossection/total/slope_roadside.md
+          - name: Уклон разделительной полосы
+            href: road_crossection/total/slope_dividing_line.md
+          - name: Конструкция
+            href: road_crossection/total/construction.md
+          - name: Бордюры
+            href: road_crossection/total/curbs.md
+          - name: Виражи
+            href: road_crossection/total/turns.md
+          - name: Автовираж
+            href: road_crossection/total/avtovirazh.md
+          - name: Общий случай создания виража
+            href: road_crossection/total/general_case_creating_superelevation.md
+          - name: Дополнительные оси
+            href: road_crossection/total/additional_axis.md
+          - name: Просмотр верха конструкции
+            href: road_crossection/total/viewing_upper_construction.md
+          - name: Проектирование откосов
+            href: road_crossection/total/designing_slopes.md
+          - name: Назначение параметров откосов
+            href: road_crossection/total/appoint_parameters_slopes.md
+          - name: Редактирование библиотеки типовых откосов
+            href: road_crossection/total/editing_library_standard_slopes.md
+          - name: Использование правил
+            href: road_crossection/total/use_rules.md
+          - name: Визуальное редактирование откоса
+            href: road_crossection/total/visual_editing_slope.md
+          - name: Редактирование параметров откоса через окно Свойства
+            href: road_crossection/total/edit_parameters_slope_through_window_properties.md
+          - name: Проектирование аналогичных откосов
+            href: road_crossection/total/designing_analogous_slopes.md
+          - name: Интерполировать откосы
+            href: road_crossection/total/interpolate_slopes.md
+          - name: Проектирование кюветов
+            href: road_crossection/total/designing_ditches.md
+          - name: Создание профиля кюветов
+            href: road_crossection/total/creation_profile_ditches.md
+          - name: Реконструкция
+            href: road_crossection/total/reconstruction.md
+      - name: Поправки к объемам работ
+        items:
+          - name: Реконструкция
+            href: road_crossection/amendments_to_volume_work/amendment_reconstruction.md
+          - name: Снятие растительного слоя
+            href: road_crossection/amendments_to_volume_work/removal_topsoil.md
+          - name: Укрепление кюветов
+            href: road_crossection/amendments_to_volume_work/strengthening_ditches.md
+          - name: Укрепление откосов
+            href: road_crossection/amendments_to_volume_work/strengthening_slopes.md
+          - name: Укрепление обочин
+            href: road_crossection/amendments_to_volume_work/strengthening_roadside.md
+          - name: Рыхление откосов
+            href: road_crossection/amendments_to_volume_work/loosening_slopes.md
+          - name: Существующая конструкция
+            href: road_crossection/amendments_to_volume_work/existing_construction.md
+          - name: Нарезка уступов
+            href: road_crossection/amendments_to_volume_work/rifling_ledges.md
+          - name: Панель быстрого доступа
+            href: road_crossection/amendments_to_volume_work/quick_access_toolbar.md
+          - name: Визуальное редактирование укреплений кюветов
+            href: road_crossection/amendments_to_volume_work/visual_editing_strengthen_ditches.md
+      - name: Расчет объемов на примере типовых поперечников
+        items:
+          - name: Общие принципы
+            href: road_crossection/calculation_volumes_major_works/general_principle.md
+          - name: Дорожная одежда
+            href: road_crossection/calculation_volumes_major_works/road_bed.md
+          - name: Земляные работы
+            href: road_crossection/calculation_volumes_major_works/excavation_work.md
+          - name: Земляные работы при капитальном ремонте/реконструкции
+            href: road_crossection/calculation_volumes_major_works/excavation_work_at_overhaul.md
+          - name: Дополнительные земляные работы
+            href: road_crossection/calculation_volumes_major_works/additional_excavation_work.md
+          - name: Планировочные объемы
+            href: road_crossection/calculation_volumes_major_works/planning_volumes.md
+          - name: Укрепительные работы
+            href: road_crossection/calculation_volumes_major_works/strengthening_work.md
+      - name: Создание и редактирование конструкций
+        href: road_crossection/creating_and_editing_constructions.md
+      - name: Работа с палитрой и деревом элементов конструкций
+        href: road_crossection/working_with_palette_and_tree_elements.md
+      - name: Создание индивидуальных элементов
+        items:
+          - name: Общие положения
+            href: road_crossection/creation_individual_elements/general_provisions.md
+          - name: Создание узлов
+            href: road_crossection/creation_individual_elements/creating_nodes.md
+          - name: Ввод узла относительно другого узла
+            href: road_crossection/creation_individual_elements/enter_one_node_relative_another_node.md
+          - name: Узел на пересечении лучей
+            href: road_crossection/creation_individual_elements/node_at_intersection_rays.md
+          - name: Ввод лучей
+            href: road_crossection/creation_individual_elements/enter_rays.md
+          - name: Создание контуров
+            href: road_crossection/creation_individual_elements/creating_contours.md
+          - name: Объединение контуров
+            href: road_crossection/creation_individual_elements/combine_contours.md
+          - name: Создание участка контура
+            href: road_crossection/creation_individual_elements/create_part_contour.md
+          - name: Создание конструкции по границе геологического контура
+            href: road_crossection/creation_individual_elements/create_construction_on_border_contour_geological_layer.md
+          - name: Создание объемов
+            href: road_crossection/creation_individual_elements/creating_volumes.md
+          - name: Откосы
+            href: road_crossection/creation_individual_elements/slopes.md
+          - name: Реконструкция существующего покрытия
+            href: road_crossection/creation_individual_elements/reconstruction_existing_coating.md
+          - name: Выравнивание покрытия по типам
+            href: road_crossection/creation_individual_elements/alignment_coverage_by_types.md
+          - name: Макропостроения
+            href: road_crossection/creation_individual_elements/macroposthonia.md
+          - name: Снятие растительного слоя
+            href: road_crossection/creation_individual_elements/macroposthonia_vegetable_layer.md
+          - name: Лоток
+            href: road_crossection/creation_individual_elements/macroposthonia_chute.md
+          - name: Частичная выторфовка тип 1
+            href: road_crossection/creation_individual_elements/macroposthonia_peat_type_1.md
+          - name: Частичная выторфовка тип 2
+            href: road_crossection/creation_individual_elements/macroposthonia_peat_type_2.md
+          - name: Частичная выторфовка тип 3
+            href: road_crossection/creation_individual_elements/macroposthonia_peat_type_3.md
+          - name: Осадка насыпи
+            href: road_crossection/creation_individual_elements/macroposthonia_sediment_mounds.md
+          - name: Срезка слоя
+            href: road_crossection/creation_individual_elements/macroposthonia_cutoff_layer.md
+          - name: Планировка
+            href: road_crossection/creation_individual_elements/macroposthonia_planning.md
+          - name: Укрепления
+            href: road_crossection/creation_individual_elements/macroposthonia_strengthening.md
+          - name: Дренаж
+            href: road_crossection/creation_individual_elements/macroposthonia_drainage.md
+          - name: Уступы. Уступ вверх, Уступ вниз
+            href: road_crossection/creation_individual_elements/macroposthonia_ledge.md
+          - name: Резерв
+            href: road_crossection/creation_individual_elements/macroposthonia_reserve.md
+          - name: Нагорная канава
+            href: road_crossection/creation_individual_elements/macroposthonia_nagorno_trench.md
+          - name: Геотекстиль в автодороге
+            href: road_crossection/creation_individual_elements/macroposthonia_geotextile.md
+          - name: Использование дополнительных переменных при конструировании индивидуальных элементов поперечного профиля
+            href: road_crossection/creation_individual_elements/use_additional_variables_in_construction_individual_elements.md
+          - name: Описание дополнительных переменных, используемых в стандартных шаблонах конструкций поперечных профилей
+            href: road_crossection/creation_individual_elements/description_additional_variables.md
+          - name: Мастер формул
+            href: road_crossection/creation_individual_elements/master_formulas.md
+      - name: Дополнительные функции работы с поперечниками
+        items:
+          - name: Проектирование аналогичных поперечников
+            href: road_crossection/additional_function/designing_analogous_widths.md
+          - name: Проектирование поперечников аналогично заданному пикету
+            href: road_crossection/additional_function/designing_analogous_specified_chainage.md
+          - name: Сохранение и загрузка конструкции поперечного профиля
+            href: road_crossection/additional_function/save_and_upload_construction.md
+          - name: Импортировать конструкцию со вставкой
+            href: road_crossection/additional_function/import_construction_with_an_insert.md
+          - name: Редактирование конструкции на конкретном пикете
+            href: road_crossection/additional_function/edit_construction_on_particular_picket.md
+  - name: Задачи
+    items:
+      - name: Выравнивание покрытия
+        items:
+          - name: Основные понятия и определения
+            href: road_tasks/alignment_coating/basic_concepts_and_definitions.md
+          - name: Общие положения
+            href: road_tasks/alignment_coating/general_provisions.md
+          - name: Подготовка исходных данных
+            href: road_tasks/alignment_coating/preparation_initial_data.md
+          - name: Задание параметров выравнивания
+            href: road_tasks/alignment_coating/specifying_options_alignment.md
+          - name: Разбивка на типы
+            href: road_tasks/alignment_coating/breakdown_on_types.md
+          - name: Построение профиля выравнивания
+            href: road_tasks/alignment_coating/construction_profile_alignment.md
+          - name: Создание поверхности толщин покрытия
+            href: road_tasks/alignment_coating/creating_surface_thickness_coating.md
+          - name: Создание ведомости отметок
+            href: road_tasks/alignment_coating/creation_statement_marks.md
+          - name: Создание ведомости объемов
+            href: road_tasks/alignment_coating/creation_statement_volumes.md
+      - name: Проектирование одноуровневых пересечений и примыканий
+        items:
+          - name: Общие сведения
+            href: road_tasks/design_single_level_intersections_and_junctionss/general_information.md
+          - name: Элементы пересечений и примыканий
+            href: road_tasks/design_single_level_intersections_and_junctionss/elements_crossings_and_adjunctions.md
+          - name: Создание пересечений
+            href: road_tasks/design_single_level_intersections_and_junctionss/creating_crossing.md
+          - name: Автозаполнение параметров пересечений
+            href: road_tasks/design_single_level_intersections_and_junctionss/autocomplete_parameters_crossing.md
+          - name: Редактирование пересечений и примыканий
+            href: road_tasks/design_single_level_intersections_and_junctionss/edit_crossings_and_adjunctions.md
+          - name: Основные параметры элементов пересечений и примыканий
+            items:
+              - name: Радиусы
+                href: road_tasks/design_single_level_intersections_and_junctionss/main_parameters_elements_crossings_and_adjunctions/radii.md
+              - name: Островки
+                href: road_tasks/design_single_level_intersections_and_junctionss/main_parameters_elements_crossings_and_adjunctions/islands.md
+              - name: Переходно-скоростные полосы
+                href: road_tasks/design_single_level_intersections_and_junctionss/main_parameters_elements_crossings_and_adjunctions/deceleration_and_acceleration_lanes.md
+              - name: Разделительные полосы
+                href: road_tasks/design_single_level_intersections_and_junctionss/main_parameters_elements_crossings_and_adjunctions/dividing_strip.md
+              - name: Обочины
+                href: road_tasks/design_single_level_intersections_and_junctionss/main_parameters_elements_crossings_and_adjunctions/roadside.md
+              - name: Оформление
+                href: road_tasks/design_single_level_intersections_and_junctionss/main_parameters_elements_crossings_and_adjunctions/design.md
+          - name: Создание примыканий
+            href: road_tasks/design_single_level_intersections_and_junctionss/creating_adjacencies.md
+          - name: Автозаполнение параметров примыканий
+            href: road_tasks/design_single_level_intersections_and_junctionss/autocomplete_parameters_adjacencies.md
+          - name: Редактирование примыканий
+            href: road_tasks/design_single_level_intersections_and_junctionss/edit_adjacencies.md
+          - name: Основные элементы примыканий
+            href: road_tasks/design_single_level_intersections_and_junctionss/main_elements_adjacencies.md
+          - name: Вертикальная планировка пересечений и примыканий
+            href: road_tasks/design_single_level_intersections_and_junctionss/vertical_layout_crossings_and_adjunctions.md
+          - name: Создание вертикальной планировки пересечения
+            href: road_tasks/design_single_level_intersections_and_junctionss/create_vertical_layout_crossing.md
+          - name: Построение поверхности по пересечению и примыканию
+            href: road_tasks/design_single_level_intersections_and_junctionss/building_surface_crossings_and_adjunctions.md
+          - name: Примыкание к структурной линии
+            href: road_tasks/design_single_level_intersections_and_junctionss/adjacencies_to_structural_line.md
+          - name: Подсчет объемов работ
+            href: road_tasks/design_single_level_intersections_and_junctionss/calculate_volumes_works.md
+      - name: Создание разворотных петель
+        href: road_tasks/pivot_hinge.md
+      - name: Автобусные остановки
+        items:
+          - name: Элементы остановки
+            href: road_tasks/bus_shelter/elements_stations.md
+          - name: Создание остановок
+            href: road_tasks/bus_shelter/creating_stations.md
+          - name: Автоматическое задание параметров остановок
+            href: road_tasks/bus_shelter/automatic_setting_stations.md
+          - name: Основные параметры элементов автобусной остановки
+            items:
+              - name: Площадка ожидания
+                href: road_tasks/bus_shelter/main_parameters_elements_bus_stop/playground_expectations.md
+              - name: Карман
+                href: road_tasks/bus_shelter/main_parameters_elements_bus_stop/pocket.md
+              - name: ПСП
+                href: road_tasks/bus_shelter/main_parameters_elements_bus_stop/acceleration_and_deceleration_strip.md
+              - name: Разделительная полоса
+                href: road_tasks/bus_shelter/main_parameters_elements_bus_stop/dividing_strip_stations.md
+              - name: Тротуар
+                href: road_tasks/bus_shelter/main_parameters_elements_bus_stop/pavement.md
+              - name: Уклоны и бордюр
+                href: road_tasks/bus_shelter/main_parameters_elements_bus_stop/slope_and_borders.md
+          - name: Редактирование автобусных остановок
+            href: road_tasks/bus_shelter/edit_bus_stops.md
+      - name: Проектирование многоуровневых развязок
+        items:
+          - name: Основные особенности данного модуля
+            href: road_tasks/designing_multilevel_junctions/main_features_this_module.md
+          - name: Исходные данные и последовательность проектирования многоуровневого пересечения
+            href: road_tasks/designing_multilevel_junctions/original_data_and_sequence_design.md
+          - name: Основные этапы проектирования съезда многоуровневой развязки
+            href: road_tasks/designing_multilevel_junctions/main_stages_projects_multilevel_transport_interchanges.md
+          - name: Плановые построения
+            href: road_tasks/designing_multilevel_junctions/planned_build.md
+          - name: Создание верха проектной конструкции по съезду
+            href: road_tasks/designing_multilevel_junctions/creation_construction_at_congress.md
+          - name: Создание профиля съезда
+            href: road_tasks/designing_multilevel_junctions/creation_profile_сongress.md
+          - name: Создание съезда
+            href: road_tasks/designing_multilevel_junctions/creation_congress.md
+          - name: Проектирование поперечных профилей по съезду развязки
+            href: road_tasks/designing_multilevel_junctions/project_cross_profile_at_congress_interchange.md
+          - name: Формирование ведомости объемов работ
+            href: road_tasks/designing_multilevel_junctions/formation_statements_quantities.md
+      - name: Создание пересечений по элементам
+        items:
+          - name: Общие сведения
+            href: road_tasks/creating_intersection_at_elements/general_information.md
+          - name: Дополнительная ось
+            href: road_tasks/creating_intersection_at_elements/additional_axis.md
+          - name: Ось ПСП
+            href: road_tasks/creating_intersection_at_elements/axis_psp.md
+          - name: ПСП с разрывом
+            href: road_tasks/creating_intersection_at_elements/psp_with_rupture.md
+      - name: Лотки
+        items:
+          - name: Определение участков расстановки лотков (общие настройки)
+            href: road_tasks/general/definition_parcels_arrangement.md
+          - name: Ввод прикромочных лотков
+            href: road_tasks/general/enter_edge_trays.md
+          - name: Ввод телескопических лотков
+            href: road_tasks/general/enter_telescopic_trays.md
+          - name: Редактирование прикромочных и телескопических лотков
+            href: road_tasks/general/edit_trays.md
+          - name: Создание ведомости расстановки лотков
+            href: road_tasks/general/create_sheet_trays.md
+      - name: Технические средства организации дорожного движения
+        items:
+          - name: Общие сведения
+            href: road_tasks/organizing_road_traffic/general_provisions.md
+          - name: Создание модели Обустройство
+            href: road_tasks/organizing_road_traffic/create_traffic_safety_model.md
+          - name: Предварительные настройки
+            href: road_tasks/organizing_road_traffic/pre_settings_model.md
+          - name: Дорожная разметка
+            items:
+              - name: Общие сведения
+                href: road_tasks/organizing_road_traffic/road_marking_new/general_provisions.md
+              - name: Создание дорожной разметки
+                items:
+                  - name: Линейная разметка
+                    href: road_tasks/organizing_road_traffic/road_marking_new/create_road_marking/creating_linear_markup.md
+                  - name: Точечная разметка
+                    href: road_tasks/organizing_road_traffic/road_marking_new/create_road_marking/creating_dotty_markup.md
+                  - name: Площадная разметка
+                    href: road_tasks/organizing_road_traffic/road_marking_new/create_road_marking/creating_area_markup_new.md
+                  - name: Автоматическое создание разметки
+                    href: road_tasks/organizing_road_traffic/road_marking_new/create_road_marking/automatic_creating_markup_bands.md
+              - name: Редактирование дорожной разметки
+                items:
+                - name: Редактирование линейной разметки
+                  href: road_tasks/organizing_road_traffic/road_marking_new/edit_road_marking/edit_linear_markup.md
+                - name: Таблица линейной разметки
+                  href: road_tasks/organizing_road_traffic/road_marking_new/edit_road_marking/linear_markup_table.md
+                - name: Редактирование точечной разметки
+                  href: road_tasks/organizing_road_traffic/road_marking_new/edit_road_marking/edit_dotty_markup.md
+                - name: Редактирование площадной разметки
+                  href: road_tasks/organizing_road_traffic/road_marking_new/edit_road_marking/edit_area_markup.md
+              - name: Подпись дорожной разметки
+                href: road_tasks/organizing_road_traffic/road_marking_new/signature_road_markings.md
+              - name: Редактирование подписи дорожной разметки
+                href: road_tasks/organizing_road_traffic/road_marking_new/edit_signature_road_marking.md
+              - name: Формирование выходных ведомостей
+                href: road_tasks/organizing_road_traffic/road_marking_new/formation_statements.md
+          - name: Стандартные дорожные знаки/Светофоры
+            items:
+              - name: Общие сведения
+                href: road_tasks/organizing_road_traffic/standard_road_signs_new/general_provisions.md
+              - name: Вставка дорожного знака/ светофора
+                href: road_tasks/organizing_road_traffic/standard_road_signs_new/insert_road_signs.md
+              - name: Редактирование дорожных знаков/ светофоров
+                items:
+                  - name: Редактирование положения дорожных знаков/светофоров в рабочем поле
+                    href: road_tasks/organizing_road_traffic/standard_road_signs_new/edit_road_signs/working_field.md
+                  - name: Редактирование параметров дорожных знаков/светофоров
+                    href: road_tasks/organizing_road_traffic/standard_road_signs_new/edit_road_signs/using_property_window.md
+                  - name: Замена стандартной стойки или фундамента на пользовательскую 3D-модель
+                    href: road_tasks/organizing_road_traffic/standard_road_signs_new/edit_road_signs/replacement_3d_model_rack_foundation.md
+                  - name: Пример создания объекта стойки со знаками и светофором
+                    href: road_tasks/organizing_road_traffic/standard_road_signs_new/creating_stand_signs.md
+                  - name: Работа с настроенной конструкцией дорожного знака/ светофора
+                    href: road_tasks/organizing_road_traffic/standard_road_signs_new/working_construction_road_signs.md
+                  - name: Добавление дополнительных знаков в библиотеку
+                    href: road_tasks/organizing_road_traffic/standard_road_signs_new/adding_additional_characters_to_library.md
+                  - name: Формирование выходных ведомостей
+                    href: road_tasks/organizing_road_traffic/standard_road_signs_new/formation_statements.md
+          - name: Создание индивидуальных дорожных знаков
+            items:
+              - name: Создание индивидуальных дорожных знаков
+                href: road_tasks/organizing_road_traffic/general_individual_signs_new/creation_individual_road_signs.md
+              - name: Описание интерфейса
+                href: road_tasks/organizing_road_traffic/general_individual_signs_new/description_interface.md
+              - name: Описание структуры знака, общие механизмы редактирования и добавления элементов
+                href: road_tasks/organizing_road_traffic/general_individual_signs_new/description_structure_sign.md
+              - name: Описание общих элементов знака и их свойств
+                items:
+                  - name: Общие сведения
+                    href: road_tasks/organizing_road_traffic/general_individual_signs_new/description_common_elements_sign/general_provisions.md
+                  - name: Щит (общие свойства)
+                    href: road_tasks/organizing_road_traffic/general_individual_signs_new/description_common_elements_sign/properties_shield.md
+                  - name: Вставка текста
+                    href: road_tasks/organizing_road_traffic/general_individual_signs_new/description_common_elements_sign/text_insertion.md
+              - name: Редактирование знаков индивидуального проектирования (на примере знака 6.10.1 «Указатель направлений»)
+                href: road_tasks/organizing_road_traffic/general_individual_signs_new/creation_signs_individual_design.md
+              - name: Редактирование знаков индивидуального проектирования (на примере знака 6.9.1 «Предварительный указатель направления»
+                items:
+                  - name: Общие сведения
+                    href: road_tasks/organizing_road_traffic/general_individual_signs_new/structure_sign/general_provisions.md
+                  - name: Элементы траектории
+                    href: road_tasks/organizing_road_traffic/general_individual_signs_new/structure_sign/elements_trajectory.md
+                  - name: Редактирование элементов траектории
+                    href: road_tasks/organizing_road_traffic/general_individual_signs_new/structure_sign/edit_elements_trajectory.md
+                  - name: Вставка и свойства различных элементов в шаблонах щитов типа 6.9. и 6.17
+                    href: road_tasks/organizing_road_traffic/general_individual_signs_new/structure_sign/create_numbers_route.md
+                  - name: Компоновка элементов на щитах 6.9. и 6.17
+                    href: road_tasks/organizing_road_traffic/general_individual_signs_new/structure_sign/arrangement_elements.md
+              - name: Характерные особенности других знаков индивидуального проектирования
+                href: road_tasks/organizing_road_traffic/general_individual_signs_new/characteristic_peculiarity_other_signs.md
+              - name: Размерные линии
+                href: road_tasks/organizing_road_traffic/general_individual_signs_new/dimension_lines.md
+              - name: Отступы
+                href: road_tasks/organizing_road_traffic/general_individual_signs_new/indented.md
+              - name: Вывод дополнительных данных по щиту знака
+                href: road_tasks/organizing_road_traffic/general_individual_signs_new/output_information_data.md
+              - name: Создание чертежа знака
+                href: road_tasks/organizing_road_traffic/general_individual_signs_new/export_drawing.md
+              - name: Сохранение и открытие знаков
+                href: road_tasks/organizing_road_traffic/general_individual_signs_new/preserve_sign.md
+              - name: Экспорт знака
+                href: road_tasks/organizing_road_traffic/general_individual_signs_new/export_sign.md
+              - name: Добавление шаблона в библиотеку индивидуальных знаков
+                href: road_tasks/organizing_road_traffic/general_individual_signs_new/creating_templates_project.md
+          - name: Ограждения. Направляющие устройства. Искусственная неровность. Шумозащитный экран
+            items:
+              - name: Общие сведения
+                href: road_tasks/organizing_road_traffic/road_fencing_new/general_provisions.md
+              - name: Ввод объекта обустройства
+                href: road_tasks/organizing_road_traffic/road_fencing_new/entering_a_road_object.md
+              - name: Редактирование объектов обустройства
+                items:
+                  - name: Редактирование объектов обустройства в рабочем поле
+                    href: road_tasks/organizing_road_traffic/road_fencing_new/editing_a_road_object/working_field.md
+                  - name: Редактирование параметров объектов обустройства
+                    items:
+                      - name: Редактирование общих параметров
+                        href: road_tasks/organizing_road_traffic/road_fencing_new/editing_a_road_object/parameters_object/general_parameters.md
+                      - name: Редактирование параметров барьерных ограждений
+                        href: road_tasks/organizing_road_traffic/road_fencing_new/editing_a_road_object/parameters_object/barrier_fences.md
+                      - name: Редактирование параметров пешеходных ограждений
+                        href: road_tasks/organizing_road_traffic/road_fencing_new/editing_a_road_object/parameters_object/pedestrian_fences.md
+                      - name: Редактирование параметров сигнальных столбиков
+                        href: road_tasks/organizing_road_traffic/road_fencing_new/editing_a_road_object/parameters_object/signal_posts.md
+                      - name: Редактирование параметров направляющих устройств
+                        href: road_tasks/organizing_road_traffic/road_fencing_new/editing_a_road_object/parameters_object/guiding_devices.md
+                      - name: Редактирование параметров искусственной неровности
+                        href: road_tasks/organizing_road_traffic/road_fencing_new/editing_a_road_object/parameters_object/artificial_unevenness.md
+                      - name: Редактирование параметров шумозащитных экранов
+                        href: road_tasks/organizing_road_traffic/road_fencing_new/editing_a_road_object/parameters_object/noise_shield.md
+                  - name: Замена стандартного концевого участка барьерного ограждения на пользовательскую 3D-модель
+                    href: road_tasks/organizing_road_traffic/road_fencing_new/editing_a_road_object/replacement_3d_model_fence_section.md
+              - name: Автоматическая расстановка барьерных ограждений и сигнальных столбиков
+                items:
+                - name: Общие принципы расстановки дорожных ограждений
+                  href: road_tasks/organizing_road_traffic/road_fencing_new/automatic_placement_road_barriers/general_principles.md
+                - name: Механизм работы с автоматической расстановкой ограждений
+                  href: road_tasks/organizing_road_traffic/road_fencing_new/automatic_placement_road_barriers/mechanism_of_working.md
+              - name: Формирование выходных ведомостей
+                href: road_tasks/organizing_road_traffic/road_fencing_new/formation_statements.md
+          - name: Буфер дорожный
+            items:
+              - name: Вставка дорожного буфера
+                href: road_tasks/organizing_road_traffic/buffer_road/insert_road_buffer.md
+              - name: Редактирование дорожного буфера
+                href: road_tasks/organizing_road_traffic/buffer_road/edit_road_buffer.md
+              - name: Формирование выходных ведомостей
+                href: road_tasks/organizing_road_traffic/buffer_road/formation_statements_buffer.md
+          - name: Обновление данных объектов ТСОДД
+            href: road_tasks/organizing_road_traffic/updating_road_object_data.md
+      - name: Оценка траектории движения
+        href: road_tasks/assessment_trajectory.md
+      - name: Оценка проектных решений
+        items:
+          - name: Оценка уровня аварийности
+            href: road_tasks/assessment_project_decisions/assessment_level_accidents.md
+          - name: Оценка уровня загрузки
+            href: road_tasks/assessment_project_decisions/assessment_level_load.md
+          - name: Определение расчетной скорости и уровня безопасности движения
+            href: road_tasks/assessment_project_decisions/determination_project_speed.md
+          - name: Формирование графиков аварийности, пропускной способности и скоростей движения
+            href: road_tasks/assessment_project_decisions/formation_graphics_accidents.md
+      - name: Анализ трехмерной видимости
+        items:
+        - name: Общие сведения
+          href: road_tasks/analysis_three_dimensional_visibility/general_information.md
+        - name: Построение картограммы видимости по полосам
+          href: road_tasks/analysis_three_dimensional_visibility/construction_cartograms_visibility_bands.md
+        - name: Анализ не видимых зон
+          href: road_tasks/analysis_three_dimensional_visibility/analysis_visible_zone.md
+        - name: Лучи видимости и преграды
+          href: road_tasks/analysis_three_dimensional_visibility/rays_visibility.md
+        - name: Ведомость расстояний видимости по полосам
+          href: road_tasks/analysis_three_dimensional_visibility/statement_distance_visibility.md
+      - name: Контроль ровности и ведомость промеров покрытия
+        href: road_tasks/control_evenness.md

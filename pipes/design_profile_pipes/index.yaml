@@ -1,0 +1,12 @@
+title: Продольный профиль
+description: >-
+meta:
+  title: Продольный профиль
+  description: >-
+links:
+- title: Общие сведения и настройка окна Профиль сети
+  description: ''
+  href: setup_window_profile_new.md
+- title: Редактирование профиля сети
+  description: ''
+  href: edit_profiles_pipelines_new.md

@@ -1,0 +1,250 @@
+title: 'Справка — {{robur}}'
+href: ../index.yaml
+
+navigation:
+  logo:
+    url: ../../../index/ru/
+    urlTitle: 'Вернуться на главную'
+    dark:
+      icon: https://download.topomatic.ru/public/media/docviewer/centre_logo_dark.svg
+    light:
+      icon: https://download.topomatic.ru/public/media/docviewer/centre_logo.svg
+  header:
+    leftItems:
+      - type: 'dropdown'
+        text: 'Продукты'
+        items:
+          - text: '{{robur}}'
+            url: '../../../robur/ru/'
+            type: 'link'
+          - text: '{{cloud}}'
+            url: '../../../cloud/ru/'
+            type: 'link'
+          - text: '{{topomatic-360}}'
+            url: '../../../albatros/ru/'
+            type: 'link'
+      #- type: 'dropdown'
+      #  text: 'Сервисы'
+      #  items:
+      #    - text: '{{id}}'
+      #      url: ''
+      #      type: 'link'
+      #- text: 'Для разработчиков'
+      #  url: ''
+      #  type: 'link'
+    rightItems:
+      - type: 'link'
+        text: 'FAQ'
+        url: 'https://topomatic.ru/maintenance/faq/'
+        arrow: true
+      - type: 'link'
+        text: 'Топоматик Поддержка'
+        url: 'https://support.topomatic.ru/'
+        arrow: true
+      - type: controls
+
+items:
+  - name: Топоматик Robur - Генеральные планы
+    href: index.yaml
+    labeled: true
+    items:
+      - name: Исходные данные
+        items:
+          - name: Обработка геодезических измерений
+            href: ../rb_survey/survey/basic_concepts.md
+          - name: Создание и редактирование ЦММ
+            href: ../rb_survey/dtm/sfc/points/notion_dots.md
+          - name: Обработка геологических изысканий
+            href: ../rb_survey/glg/creation_legend_ground.md
+          - name: Загрузка кадастровых данных
+            href: ../../ru/commons_tasks/cadaster/download_data.md
+          - name: Работа с системами координат
+            href: ../../ru/commons_tasks/coordinate_systems/coordinate_systems.md
+          - name: Загрузка интернет карт
+            href: ../../ru/commons_tasks/maps/load_internet_cards.md
+      - name: Создание и Настройки модели Площадка
+        href: creating_ground_model.md
+      - name: Горизонтальная планировка
+        expanded: true
+        items:
+          - name: Введение
+            href: horizontal_layout_new/introduction.md
+          - name: Работа с базовыми примитивами чертежа
+            href: ../../ru/rb_survey/dtm/dwg/types_primitives_drawing.md
+          - name: Работа с динамическими примитивами
+            items:
+              - name: Осевая линия
+                href: horizontal_layout_new/dynamic_objects/axis_line.md
+              - name: Смещение графически
+                href: horizontal_layout_new/dynamic_objects/offset_graphically.md
+              - name: Смещение через таблицу
+                href: horizontal_layout_new/dynamic_objects/offset_through_through.md
+              - name: Карман на смещении
+                href: horizontal_layout_new/dynamic_objects/expansion_on_offset.md
+              - name: Сопряжение смещений
+                href: horizontal_layout_new/dynamic_objects/coupling_of_offsets.md
+          - name: Импорт данных из других CAD систем
+            href: horizontal_layout_new/import.md
+      - name: Вертикальная планировка
+        expanded: true
+        items:
+          - name: Введение
+            href: vertical_layout_new/introduction.md
+          - name: Создание и редактирование точек
+            items:
+              - name: Введение
+                href: vertical_layout_new/notion_dots_new/introduction.md
+              - name: Изменить отметку
+                href: vertical_layout_new/notion_dots_new/change_elevation.md
+              - name: Задать отметки по опорной точке
+                href: vertical_layout_new/notion_dots_new/elevation_based_on_reference_dot.md
+              - name: Выровнять отметки по опорной точке
+                href: vertical_layout_new/notion_dots_new/elevation_align_to_reference_dot.md
+              - name: Задать отметки по опорной линии
+                href: vertical_layout_new/notion_dots_new/elevation_based_on_reference_line.md
+              - name: Вставить точки по опорной линии
+                href: vertical_layout_new/notion_dots_new/dots_based_on_reference_line.md
+              - name: Задать уклон между точками
+                href: vertical_layout_new/notion_dots_new/slope_between_points.md
+              - name: Указать номера точек
+                href: vertical_layout_new/notion_dots_new/numeration_dots.md
+          - name: Создание и редактирование структурных линий
+            items:
+              - name: Введение
+                href: vertical_layout_new/structural_lines_new/introduction.md
+              - name: Добавить ребро
+                href: vertical_layout_new/structural_lines_new/adding_an_edge.md
+              - name: Отметки по существующей
+                href: vertical_layout_new/structural_lines_new/elevation_on_an_existing.md
+              - name: Задать отметку точкам
+                href: vertical_layout_new/structural_lines_new/mark_elevation.md
+              - name: Вставить узел вдоль структурной линии
+                href: vertical_layout_new/structural_lines_new/insert_nodes_along_structural_lines_new.md
+              - name: Вставить дополнительные точки в сегмент структурной линии
+                href: vertical_layout_new/structural_lines_new/insert_additional_points_into_structural_line_segment.md
+              - name: Сопряжение сегментов
+                href: vertical_layout_new/structural_lines_new/segment_pairing.md
+              - name: Удалить дугу
+                href: vertical_layout_new/structural_lines_new/delete_the_arc.md
+              - name: Изменить дугу
+                href: vertical_layout_new/structural_lines_new/change_the_arc.md
+              - name: Изменить количество сегментов дуги
+                href: vertical_layout_new/structural_lines_new/change_the_number_of_arc_segments.md
+              - name: Задать уклон между двумя точками
+                href: vertical_layout_new/structural_lines_new/set_the_slope_between_two_dots.md
+              - name: Интерполировать отметки по линии
+                href: vertical_layout_new/structural_lines_new/interpolate_the_elevation_along_the_line.md       
+              - name: Назначить уклоноуказатель
+                href: vertical_layout_new/structural_lines_new/assign_a_slope_indicator.md
+              - name: Отметка в точке структурной линии
+                href: vertical_layout_new/structural_lines_new/elevation_at_the_point_of_the_structural_line.md        
+          - name: Работа с модификаторами
+            items:
+              - name: Введение
+                href: vertical_layout_new/design_plan_genplan/introduction.md
+              - name: Описание модификаторов
+                href: vertical_layout_new/design_plan_genplan/description_of_modifiers.md
+              - name: Площадка
+                href: vertical_layout_new/design_plan_genplan/site.md
+              - name: Заполнение
+                href: vertical_layout_new/design_plan_genplan/fill.md
+              - name: Регион
+                href: vertical_layout_new/design_plan_genplan/region.md
+              - name: Уклоноуказатель
+                href: vertical_layout_new/design_plan_genplan/inclination.md
+              - name: Смещение
+                href: vertical_layout_new/design_plan_genplan/offset.md
+              - name: Здание
+                href: vertical_layout_new/design_plan_genplan/building.md
+              - name: Бордюр
+                href: vertical_layout_new/design_plan_genplan/creating_borders_new.md
+              - name: Откос
+                href: vertical_layout_new/design_plan_genplan/slope.md
+              - name: Водоотвод в модели Площадка
+                href: vertical_layout_new/design_plan_genplan/ditch.md
+              - name: Слои
+                href: vertical_layout_new/design_plan_genplan/layers.md
+              - name: Берма
+                href: vertical_layout_new/design_plan_genplan/berm.md
+      - name: Аннотации
+        items:
+          - name: Введение
+            href: annotations/introduction.md
+          - name: Настройки ССК
+            href: annotations/setting_up_SSC.md
+          - name: Аннотации
+            href: annotations/annotations_of_the_center_plan.md
+          - name: Настройки параметров аннотаций
+            href: annotations/annotation_settings.md
+      - name: Благоустройство
+        items:
+          - name: Введение
+            href: improvement/introduction.md
+          - name: Озеленение
+            items:
+              - name: Введение
+                href: improvement/landscape/introduction.md
+              - name: Добавление элементов Озеленения
+                href: improvement/landscape/general.md
+              - name: Редактирование элементов Озеленения
+                href: improvement/landscape/linear_fit.md
+              - name: Свойства элементов Озеленения
+                href: improvement/landscape/landscaping_properties.md
+              - name: Стили озеленения
+                href: improvement/landscape/styles.md
+              - name: Группировка
+                href: improvement/landscape/grouping.md
+              - name: Автонумерация
+                href: improvement/landscape/autonumbering.md 
+              - name: Выноски с наименованием
+                href: improvement/landscape/callouts_with_name.md
+              - name: Копировать свойства
+                href: improvement/landscape/copy_properties.md
+              - name: Редакторы параметров
+                href: improvement/landscape/parameter_editors.md
+              - name: Ведомость озеленения
+                href: improvement/landscape/statement.md
+          - name: МАФ (Малые архитектурные формы)
+            items:
+              - name: Введение
+                href: improvement/maf/introduction.md
+              - name: Добавление элементов МАФ
+                href: improvement/maf/general.md
+              - name: Автонумерация
+                href: improvement/maf/autonumbering.md       
+              - name: Группировка
+                href: improvement/maf/grouping.md
+              - name: Копировать свойства
+                href: improvement/maf/copy_properties.md
+              - name: Элементы МАФ в Библиотеке 3D объектов
+                href: improvement/maf/maf_in_3d_library.md
+              - name: Ведомость малых архитектурных форм
+                href: improvement/maf/statement.md
+      - name: Утилиты
+        items:
+          - name: Создать поверхность из примитивов
+            href: utilities/creating_surface_from_primitives.md
+          - name: Семантика слоев чертежа
+            href: utilities/semantics_of_drawing_layers.md 
+          - name: Копировать точки из опорной поверхности
+            href: utilities/copy_dots_from_a_reference_surface.md
+          - name: Копировать структурные линии из опорной поверхности
+            href: utilities/copy_structural_lines_from_reference_surface.md    
+          - name: Спроецировать на опорную поверхность
+            href: utilities/project_onto_the_support_surface.md
+          - name: Создать поверхность слияния
+            href: utilities/create_merge_surface.md
+          - name: Сбалансировать площадку
+            href: utilities/balance_the_platform.md
+          - name: Создать поверхность по низу конструкций
+            href: utilities/create_a_surface_at_the_bottom_of_the_structures.md   
+          - name: Перестроить твердотельную модель площадки
+            href: utilities/rebuild_the_solidstate_model_of_the_platform.md
+          - name: Изменить ЦММ у нескольких площадок
+            href: utilities/change_the_cmm_for_several_platform.md
+          - name: Копировать семантические свойства
+            href: utilities/copy_semantic_properties.md
+      - name: Создание ведомостей
+        href: creating_output_statements_genplan.md
+      - name: Создание чертежей
+        href: creation_output_drawings_genplan.md

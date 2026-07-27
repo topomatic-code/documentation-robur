@@ -1,0 +1,57 @@
+title: Общие задачи
+description: >-
+meta:
+  title: Общие задачи
+  description: >-
+links:
+- title: Основные определения
+  description: ''
+  href: basic_definitions_new.md
+- title: Создание модели инженерной сети
+  description: ''
+  href: create_model_new.md
+- title: Настройки модели инженерной сети
+  description: ''
+  href: settings_create_model_new.md
+- title: Создание линии сети
+  description: ''
+  href: creation_pipeline.md
+- title: Создание узла сети
+  description: ''
+  href: creation_wells_new.md
+- title: Создание футляра
+  description: ''
+  href: creating_casing.md
+- title: Редактирование сети
+  description: ''
+  href: edit_elements_network_new.md
+- title: Свойства элементов сети
+  description: ''
+  href: characteristics.md
+- title: Конструкции узлов (в разработке)
+  description: ''
+  href: template_wells_new.md
+- title: Конструкции сегментов (в разработке)
+  description: ''
+  href: template_segments_new.md
+- title: Точки подключения
+  description: ''
+  href: connection_segment_dots_wells_new.md
+- title: Пересечения сетей (в разработке)
+  description: ''
+  href: cross_plan_new.md
+- title: Траншеи и котлованы (в разработке)
+  description: ''
+  href: creation_trench_new.md
+- title: Зоны отвода
+  description: ''
+  href: creation_zone_new.md
+- title: Расчеты
+  description: ''
+  href: calculations.md
+- title: Утилиты
+  description: ''
+  href: utilities_new
+- title: Архив
+  description: ''
+  href: archive.md
