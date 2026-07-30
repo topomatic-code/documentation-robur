@@ -1,3 +1,6 @@
+pdf:
+  version: pdf
+
 default:
   id: Топоматик ID
   robur: Топоматик Robur
@@ -7,3 +10,47 @@ default:
   docs-uri: "https://docs.topomatic.ru"
   topomatic-name: НПФ Топоматик
   topomatic-360: Топоматик 360
+
+  #элементы навигации
+  navigation:
+    logo:
+      url: ../../index/ru/
+      urlTitle: 'Вернуться на главную'
+      dark:
+        icon: https://download.topomatic.ru/public/media/docviewer/centre_logo_dark.svg
+      light:
+        icon: https://download.topomatic.ru/public/media/docviewer/centre_logo.svg
+    header:
+      leftItems:
+        - type: 'dropdown'
+          text: 'Продукты'
+          items:
+            - text: 'Топоматик Robur'
+              url: '../../robur/ru/'
+              type: 'link'
+            - text: 'Топоматик Сервер'
+              url: '../../cloud/ru/'
+              type: 'link'
+            - text: 'Топоматик 360'
+              url: '../../albatros/ru/'
+              type: 'link'
+        - type: 'dropdown'
+          text: 'Сервисы'
+          items:
+            - text: 'Топоматик ID'
+              url: '../../web/ru/id/'
+              type: 'link'
+      rightItems:
+        - type: 'link'
+          text: 'Топоматик Поддержка'
+          url: 'https://support.topomatic.ru/'
+          arrow: true
+        - type: 'button'
+          text: '.pdf'
+          url: 'https://download.topomatic.ru/public/docs/robur/documentation-robur.pdf'
+          theme: 'outlined'
+        - type: 'button'
+          text: '.md'
+          url: 'https://github.com/topomatic-code/documentation-robur'
+          theme: 'outlined'
+        - type: controls

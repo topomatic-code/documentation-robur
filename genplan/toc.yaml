@@ -1,47 +1,7 @@
 title: 'Справка — {{robur}}'
 href: ../index.yaml
 
-navigation:
-  logo:
-    url: ../../../index/ru/
-    urlTitle: 'Вернуться на главную'
-    dark:
-      icon: https://download.topomatic.ru/public/media/docviewer/centre_logo_dark.svg
-    light:
-      icon: https://download.topomatic.ru/public/media/docviewer/centre_logo.svg
-  header:
-    leftItems:
-      - type: 'dropdown'
-        text: 'Продукты'
-        items:
-          - text: '{{robur}}'
-            url: '../../../robur/ru/'
-            type: 'link'
-          - text: '{{cloud}}'
-            url: '../../../cloud/ru/'
-            type: 'link'
-          - text: '{{topomatic-360}}'
-            url: '../../../albatros/ru/'
-            type: 'link'
-      #- type: 'dropdown'
-      #  text: 'Сервисы'
-      #  items:
-      #    - text: '{{id}}'
-      #      url: ''
-      #      type: 'link'
-      #- text: 'Для разработчиков'
-      #  url: ''
-      #  type: 'link'
-    rightItems:
-      - type: 'link'
-        text: 'FAQ'
-        url: 'https://topomatic.ru/maintenance/faq/'
-        arrow: true
-      - type: 'link'
-        text: 'Топоматик Поддержка'
-        url: 'https://support.topomatic.ru/'
-        arrow: true
-      - type: controls
+navigation: '{{navigation}}'
 
 items:
   - name: Топоматик Robur - Генеральные планы
