@@ -1,0 +1,62 @@
+title: 'Справка — {{robur}}'
+href: ../index.yaml
+
+navigation: '{{navigation}}'
+
+items:
+  - name: Топоматик Robur - Дорожная одежда
+    href: index.yaml
+    labeled: true
+    items:
+      - name: Запуск программы
+        href: start_program.md
+      - name: Выбор методики
+        href: election_methods.md
+      - name: Порядок расчета
+        expanded: true
+        items:
+          - name: Общие данные
+            href: choice_calculation/common_data.md
+          - name: Нагрузки
+            href: choice_calculation/loads.md
+          - name: Осушение
+            href: choice_calculation/draining.md
+          - name: Конструкция 
+            href: choice_calculation/construction.md
+          - name: Расчет
+            href: choice_calculation/calculation.md
+          - name: Архивные методики
+            items:
+              - name: Общие данные
+                href: choice_calculation/archive_calculation_new/common_data.md
+              - name: Нагрузки
+                href: choice_calculation/archive_calculation_new/loads.md
+              - name: Осушение
+                href: choice_calculation/archive_calculation_new/draining.md
+              - name: Конструкция
+                href: choice_calculation/archive_calculation_new/construction.md
+              - name: Расчет
+                href: choice_calculation/archive_calculation_new/calculation.md
+              - name: Варианты сравнения
+                href: choice_calculation/archive_calculation_new/variants_comparison.md
+      - name: Настройки расчета
+        href: road_tasks.md
+      - name: Дополнительно
+        expanded: true
+        items:
+          - name: Особенности расчета новой конструкции дорожной одежды и слоев усиления
+            href: additionally/road_crossection.md
+          - name: Редактирование конструкции (расширенный вид)
+            href: additionally/advanced_view.md
+          - name: Работа с вариантами
+            href: additionally/work_with_variants.md
+          - name: Работа со слоями через контекстное меню
+            href: additionally/working_with_layers_via_context_menu.md
+          - name: Учет геосинтетических материалов
+            href: additionally/geosynthetic.md
+          - name: Определение марки битумного вяжущего
+            href: additionally/determining_brand_binder.md
+          - name: Расчет на морозоустойчивость
+            href: additionally/frost_resistance.md
+      - name: Стандартные библиотеки
+        href: library.md

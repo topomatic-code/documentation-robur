@@ -64,11 +64,11 @@ blocks:
         url: genplan/index.yaml
         additionalInfo: В данном разделе рассматривается функционал по созданию и редактированию элементов генерального плана
       - type: 'basic-card'
-        title: Топоматик Robur - Дорожная одежда (скоро)
+        title: Топоматик Robur - Дорожная одежда
         icon:
           dark: https://download.topomatic.ru/public/media/docviewer/roadbed_logo_dark.svg
           light: https://download.topomatic.ru/public/media/docviewer/roadbed_logo.svg
-        #url: roadbed/index.yaml
+        url: roadbed/index.yaml
         additionalInfo: В данном разделе рассматривается функционал по расчету дорожной одежды
       - type: 'basic-card'
         title: Общие задачи
@@ -88,7 +88,3 @@ blocks:
         title: Приложение
         url: annex/index.yaml
         additionalInfo: Описание способов подсчета объемов работ, перечень стандартных кодов и переменных конструкций поперечного профиля автомобильной дороги, библиотека семантических объектов, библиотека данных и архивные разделы
-      #- type: 'basic-card'
-      #  title: Дорожная одежда_new
-      #  url: road_bed_new/index.yaml
-      #  additionalInfo:

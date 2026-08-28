@@ -32,8 +32,8 @@ items:
     href: genplan/index.yaml
     labeled: true
     #when: version != "pdf" #pdf-only
-  - name: Топоматик Robur - Дорожная одежда (скоро)
-    #href: roadbed/index.yaml
+  - name: Топоматик Robur - Дорожная одежда
+    href: roadbed/index.yaml
     labeled: true
     #when: version != "pdf" #pdf-only
   - name: Общие задачи

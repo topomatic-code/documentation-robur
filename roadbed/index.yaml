@@ -1,0 +1,56 @@
+title: 'Топоматик Robur - Дорожная одежда'
+blocks:
+  - type: 'card-layout-block'
+    title: 'Топоматик Robur - Дорожная одежда'
+    description:  >-
+     Данный модуль предназначен для расчета нежестких и жестких дорожных одежд автомобильных дорог общей сети, промышленных предприятий и городских дорог и улиц. Применим для проектирования вновь сооружаемых и реконструируемых (усиливаемых) дорожных одежд, а также для оценки прочности существующих конструкций.
+    animated: true
+    children:
+      - type: 'basic-card'
+        title: Начало работы
+        links:
+          - url: 'start_program.md'
+            text: 'Запуск программы'
+            theme: 'normal'
+            arrow: true
+          - url: 'election_methods.md'
+            text: 'Выбор методики'
+            theme: 'normal'
+            arrow: true
+      - type: 'basic-card'
+        title: Расчет
+        links:
+          - url: 'choice_calculation/common_data.md'
+            text: 'Порядок расчета'
+            theme: 'normal'
+            arrow: true
+          - url: 'road_tasks.md'
+            text: 'Настройки расчета'
+            theme: 'normal'
+            arrow: true
+      - type: 'basic-card'
+        title: Дополнительно
+        links:
+          - url: 'additionally/road_crossection.md'
+            text: 'Особенности расчета новой конструкции дорожной одежды и слоев усиления'
+            theme: 'normal'
+            arrow: true
+          - url: 'additionally/geosynthetic.md'
+            text: 'Учет геосинтетических материалов'
+            theme: 'normal'
+            arrow: true
+          - url: 'additionally/determining_brand_binder.md'
+            text: 'Определение марки битумного вяжущего'
+            theme: 'normal'
+            arrow: true
+          - url: 'additionally/work_with_variants.md'
+            text: 'И другие'
+            theme: 'normal'
+            arrow: true
+      - type: 'basic-card'
+        title: Библиотеки
+        links:
+          - url: 'library.md'
+            text: 'Стандартные библиотеки'
+            theme: 'normal'
+            arrow: true
